@@ -1,0 +1,2528 @@
+Program    : LTR_FINDER
+Version    : 1.07
+
+Predict protein Domains 4.407 second
+>Sequence: 17 Len:25593420
+[1] 17 Len:25593420
+Location : 672105 - 674163 Len: 2059 Strand:+
+Score    : 6 [LTR region similarity:0.96]
+Status   : 11111010000
+5'-LTR   : 672105 - 672500 Len: 396
+3'-LTR   : 673768 - 674163 Len: 396
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 672100 - 672104 , 674164 - 674168 [CTATC]
+Sharpness: 0.529,0.471
+Strand + :
+PPT   : [12/15] 673703 - 673717
+
+Details of exact match pairs:
+673768-673856[89] (5) 673862-673891[30] (1) 673893-673955[63] (18) 673974-674002[29] (1) 674004-674023[20] (11) 674035-674069[35] (61) 674131-674163[33]
+672105-672193[89] (5) 672199-672228[30] (1) 672230-672292[63] (18) 672311-672339[29] (1) 672341-672360[20] (11) 672372-672406[35] (61) 672468-672500[33]
+
+Details of the LTR alignment(5'-end):
+                                       |673768
+GTTTGTGTGTCAAG-------TTGAC-AAGGGGTCAAT-TGTACTGGCTGGTTTTGTGTCAACTTGACACAGCTGGAGTTA
+   ||  |   |||       ||| | |||    | || *|||||||||||||||||||||||||||||||||||||||||
+ACCTGCATAAAAAGCACTTTATTGGCTAAG----CTATCTGTACTGGCTGGTTTTGTGTCAACTTGACACAGCTGGAGTTA
+                                  *****|672105
+
+Details of the LTR alignment(3'-end):
+                                 674163|*****
+TCATGAAGTTTGTGCAGGAATAGAAACCCTGACTAAGACACTATCTCCCTGGCTCACATCTCA-TGCTTTATT--T-T--C
+|||||| ||||||||||||||||||||||||||||||||*  ||     |||  | || |  | ||   ||||  | |  |
+TCATGATGTTTGTGCAGGAATAGAAACCCTGACTAAGACAA-AT-----TGGTAC-CAGCAGAGTGGGGTATTCCTGTGAC
+                                 672500|
+
+Details of PPT(+):
+ATAAGAATGTAAGGG
+|673703
+
+[2] 17 Len:25593420
+Location : 2143331 - 2146018 Len: 2688 Strand:-
+Score    : 6 [LTR region similarity:0.684]
+Status   : 11111010000
+5'-LTR   : 2143331 - 2143713 Len: 383
+3'-LTR   : 2145694 - 2146018 Len: 325
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 2143325 - 2143330 , 2146019 - 2146024 [CTCCCC]
+Sharpness: 0.514,0.5
+Strand - :
+PPT   : [14/15] 2143714 - 2143728
+
+Details of exact match pairs:
+2145684-2145720[37] (1) 2145722-2145766[45] (-54) 2145713-2145806[94] (-39) 2145768-2145897[130] (21) 2145919-2145949[31] (-28) 2145922-2145959[38] (24) 2145984-2146041[58] (-81) 2145961-2146041[81]
+2143321-2143357[37] (1) 2143359-2143403[45] (-23) 2143381-2143474[94] (-10) 2143465-2143594[130] (-10) 2143585-2143615[31] (1) 2143617-2143654[38] (-7) 2143648-2143705[58] (-50) 2143656-2143736[81]
+
+Details of the LTR alignment(5'-end):
+                                            |2145694
+ACA--CACTCCCCTGCTCCTTCCTTAGAATTG--CACACTCCCCTGCTCCTTCCTTAGAATTGCACACTCCCCTGCTCCTT
+| |  ||     | |      ||||| |||||  |*||||||||||||||||||||||||||||||||||| |||||||||
+AAAGGCA-----CAG------CCTTA-AATTGCACACACTCCCCTGCTCCTTCCTTAGAATTGCACACTCCTCTGCTCCTT
+                                      ******|2143331
+
+Details of the LTR alignment(3'-end):
+                      2146018|******
+TCCCCTGCTCCTTCCTTAGAATTGCACACACTCCCCTGCTCCTTCCTTAGAATCGCACTCACACTCTCCTGTTTTTTTCTT
+||||||||||||||||||||||||||||||||||||||||||||||||||*|| ||||  |||||| |||| |  || |||
+TCCCCTGCTCCTTCCTTAGAATTGCACACACTCCCCTGCTCCTTCCTTAGAATTGCAC--ACACTCCCCTGCTCCTTCCTT
+                      2143713|
+
+Details of PPT(-):
+CTCCCCTGCTCCTTC
+|2143714
+
+[3] 17 Len:25593420
+Location : 2143331 - 2146018 Len: 2688 Strand:-
+Score    : 6 [LTR region similarity:0.733]
+Status   : 11111010000
+5'-LTR   : 2143331 - 2143504 Len: 174
+3'-LTR   : 2145783 - 2146018 Len: 236
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 2143325 - 2143330 , 2146019 - 2146024 [CTCCCC]
+Sharpness: 0.457,0.443
+Strand - :
+PPT   : [14/15] 2143505 - 2143519
+
+Details of exact match pairs:
+2145773-2145806[34] (6) 2145813-2145868[56] (-5) 2145864-2145959[96] (24) 2145984-2146041[58]
+2143321-2143354[34] (4) 2143359-2143414[56] (-34) 2143381-2143476[96] (-7) 2143470-2143527[58]
+
+Details of the LTR alignment(5'-end):
+                                            |2145783
+ACA--CACTCCCCTGCTCCTTCCTTAAAATTG--CACACTCCCCTGCTCCTTCCTTAGAATTGCACACACTCCCCTGCTCC
+| |  ||     | |  ||||     ||||||  *||||||||||||||||||||||||||||  |||||||| |||||||
+AAAGGCA-----CAG--CCTT-----AAATTGCACACACTCCCCTGCTCCTTCCTTAGAATTG--CACACTCCTCTGCTCC
+                                      ******|2143331
+
+Details of the LTR alignment(3'-end):
+                  2146018|******
+CTGCTCCTTCCTTAGAATTGCACACACTCCCCTGCTCCTTCCTTAGAATCGCACTCACACTCTCCTGTTTTTTTCTTTTTA
+||||||||||||||||||||||||||||||||||||||||||||||||| |||*  |||||| |||| |  || |||   |
+CTGCTCCTTCCTTAGAATTGCACACACTCCCCTGCTCCTTCCTTAGAATTGCAC--ACACTCCCCTGCTCCTTCCTT---A
+                  2143504|
+
+Details of PPT(-):
+CTCCCCTGCTCCTTC
+|2143505
+
+[4] 17 Len:25593420
+Location : 2143331 - 2146018 Len: 2688 Strand:-
+Score    : 6 [LTR region similarity:0.804]
+Status   : 11111010000
+5'-LTR   : 2143331 - 2144135 Len: 805
+3'-LTR   : 2145307 - 2146018 Len: 712
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 2143325 - 2143330 , 2146019 - 2146024 [CTCCCC]
+Sharpness: 0.443,0.471
+Strand - :
+PPT   : [14/15] 2144136 - 2144150
+
+Details of exact match pairs:
+2145355-2145408[54] (1) 2145410-2145448[39] (-63) 2145386-2145479[94] (-65) 2145415-2145508[94] (24) 2145533-2145597[65] (-36) 2145562-2145688[127] (-96) 2145593-2145688[96] (-96) 2145593-2145917[325] (-54) 2145864-2145959[96] (24) 2145984-2146041[58]
+2143381-2143434[54] (1) 2143436-2143474[39] (-34) 2143441-2143534[94] (-34) 2143501-2143594[94] (22) 2143617-2143681[65] (-65) 2143617-2143743[127] (-65) 2143679-2143774[96] (-65) 2143710-2144034[325] (-23) 2144012-2144107[96] (-7) 2144101-2144158[58]
+
+Details of the LTR alignment(5'-end):
+                                             |2145307
+TT-GCACACTCCCCTGCTCCTTCCTTAGAATTGCACACACTCCCCTGCTCCTTCCTTAGAATTGCACACTCCCCTGCTCCT
+|| ||| |       ||  |  ||||| |||||*|||||||||||||||||||||||||||||||||||||| ||||||||
+TTAGCAAA------GGC-ACAGCCTTA-AATTGCACACACTCCCCTGCTCCTTCCTTAGAATTGCACACTCCTCTGCTCCT
+                                       ******|2143331
+
+Details of the LTR alignment(3'-end):
+                      2146018|******
+TCCCCTGCTCCTTCCTTAGAATTGCACACACTCCCCTGCTCCTTCCTTAGAATCGCACTCACACTCTCCTGTTTTTTTCTT
+||||||||||||||||||||||||||||||||||||||||||||||||||*|| ||||  |||||| |||| |  || |||
+TCCCCTGCTCCTTCCTTAGAATTGCACACACTCCCCTGCTCCTTCCTTAGAATTGCAC--ACACTCCCCTGCTCCTTCCTT
+                      2144135|
+
+Details of PPT(-):
+CTCCCCTGCTCCTTC
+|2144136
+
+[5] 17 Len:25593420
+Location : 2143331 - 2146018 Len: 2688 Strand:-
+Score    : 6 [LTR region similarity:0.713]
+Status   : 11111010000
+5'-LTR   : 2143331 - 2143864 Len: 534
+3'-LTR   : 2145545 - 2146018 Len: 474
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 2143325 - 2143330 , 2146019 - 2146024 [CTCCCC]
+Sharpness: 0.486,0.5
+Strand - :
+PPT   : [14/15] 2143865 - 2143879
+
+Details of exact match pairs:
+2145593-2145646[54] (32) 2145679-2145766[88] (6) 2145773-2145837[65] (-3) 2145835-2145889[55] (-28) 2145862-2145897[36] (-63) 2145835-2145917[83] (-54) 2145864-2145917[54] (6) 2145924-2145957[34] (3) 2145961-2146017[57] (-34) 2145984-2146017[34] (-34) 2145984-2146037[54]
+2143381-2143434[54] (1) 2143436-2143523[88] (-23) 2143501-2143565[65] (-5) 2143561-2143615[55] (1) 2143617-2143652[36] (-34) 2143619-2143701[83] (-23) 2143679-2143732[54] (8) 2143741-2143774[34] (-26) 2143749-2143805[57] (-5) 2143801-2143834[34] (-5) 2143830-2143883[54]
+
+Details of the LTR alignment(5'-end):
+                                            |2145545
+ACA--CACTCCCCTGCTCCTTCCTTAGAATTG--CACACTCCCCTGCTCCTTCCTTAGAATTGCACACTCCCCTGCTCCTT
+| |  ||     | |      ||||| |||||  |*||||||||||||||||||||||||||||||||||| |||||||||
+AAAGGCA-----CAG------CCTTA-AATTGCACACACTCCCCTGCTCCTTCCTTAGAATTGCACACTCCTCTGCTCCTT
+                                      ******|2143331
+
+Details of the LTR alignment(3'-end):
+                       2146018|******
+CTCCCCTGCTCCTTCCTTAGAATTGCACACACTCCCCTGCTCCTTCCTTAGAATCGCACTCACACTCTCCTGTTTTTTTCT
+ ||||||||||||||||||||||||||||||||||||||||||||||||* ||| ||||    |||| |||| |  || ||
+-TCCCCTGCTCCTTCCTTAGAATTGCACACACTCCCCTGCTCCTTCCTTAAAATTGCAC----ACTCCCCTGCTCCTTCCT
+                       2143864|
+
+Details of PPT(-):
+CTCCCCTGCTCCTTC
+|2143865
+
+[6] 17 Len:25593420
+Location : 2770488 - 2776202 Len: 5715 Strand:+
+Score    : 6 [LTR region similarity:0.877]
+Status   : 11111010000
+5'-LTR   : 2770488 - 2770854 Len: 367
+3'-LTR   : 2775874 - 2776202 Len: 329
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 2770482 - 2770487 , 2776203 - 2776208 [GCCCTG]
+Sharpness: 0.514,0.514
+Strand + :
+PPT   : [14/15] 2775859 - 2775873
+
+Details of exact match pairs:
+2775885-2775921[37] (0) 2775922-2776007[86] (36) 2776044-2776078[35] (1) 2776080-2776196[117]
+2770499-2770535[37] (3) 2770539-2770624[86] (71) 2770696-2770730[35] (1) 2770732-2770848[117]
+
+Details of the LTR alignment(5'-end):
+                                       |2775874
+---AAG------AA-----AAAA----GTGG----GAGATGTGAGGAGCAGGTGTGGCAGCAGTCCCAAAGGCGCCAGGGA
+    ||      ||     ||||     |||    |   *||||||||| |||||||||||||||||||||||||||||||
+CCTGAGTGTTTTAACCCTGAAAACTCCCTGGCCCTG---TGTGAGGAGCGGGTGTGGCAGCAGTCCCAAAGGCGCCAGGGA
+                              ******---|2770488
+
+Details of the LTR alignment(3'-end):
+                                   2776202|------******
+CTGGTGGTCGTGTCATTCTTGCTGGTCGAGAGCGGACGCGACA------GCCCTGTCTACTAGGAATTTCTATGGAGGCTC
+||||||||||||||||||||||||||||||||||||* |||||      | || ||  ||  ||||   |    ||  |||
+CTGGTGGTCGTGTCATTCTTGCTGGTCGAGAGCGGACACGACAATTGGTGGCCGGT--ACAGGGAAC--C----GA--CTC
+                                   2770854|
+
+Details of PPT(+):
+GAAAAAAGTGGGAGA
+|2775859
+
+[7] 17 Len:25593420
+Location : 2770503 - 2775994 Len: 5492 Strand:+
+Score    : 6 [LTR region similarity:0.972]
+Status   : 11111010000
+5'-LTR   : 2770503 - 2770611 Len: 109
+3'-LTR   : 2775889 - 2775994 Len: 106
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 2770499 - 2770502 , 2775995 - 2775998 [GGTG]
+Sharpness: 0.514,0.543
+Strand + :
+PPT   : [14/15] 2775859 - 2775873
+
+Details of exact match pairs:
+2775885-2775921[37] (0) 2775922-2776007[86]
+2770499-2770535[37] (3) 2770539-2770624[86]
+
+Details of the LTR alignment(5'-end):
+                                               |2775889
+-----AA-----AAAA----GTGG----GAGATGTGAGGAGCAGGTGTGGCAGCAGTCCCAAAGGCGCCAGGGACTGCAG-
+     ||     ||||     |||    |   *||||||||| ||||||||||||||||||||||||||||||||||||| 
+GTTTTAACCCTGAAAACTCCCTGGCCCTG---TGTGAGGAGCGGGTGTGGCAGCAGTCCCAAAGGCGCCAGGGACTGCAGG
+                                           ****|2770503
+
+Details of the LTR alignment(3'-end):
+                               2775994|****
+CACCTGAATATAAGCCACAAACATCATGAGAGCTGCGCAGGTGTACCAGGATCCCGGTGAAT-------------------
+|||||||||||||||||||||||||||||||||||||||||*|||||||||| | |||||||                   
+CACCTGAATATAAGCCACAAACATCATGAGAGCTGCGCAGGTGTACCAGGATGCTGGTGAATCCATTTTGATGGAGATATG
+                               2770611|
+
+Details of PPT(+):
+GAAAAAAGTGGGAGA
+|2775859
+
+[8] 17 Len:25593420
+Location : 3096945 - 3099031 Len: 2087 Strand:-
+Score    : 6 [LTR region similarity:0.965]
+Status   : 11111010000
+5'-LTR   : 3096945 - 3097340 Len: 396
+3'-LTR   : 3098636 - 3099031 Len: 396
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 3096940 - 3096944 , 3099032 - 3099036 [CCACC]
+Sharpness: 0.529,0.514
+Strand - :
+PPT   : [14/15] 3097397 - 3097411
+
+Details of exact match pairs:
+3098636-3098708[73] (1) 3098710-3098771[62] (62) 3098834-3099008[175] (1) 3099010-3099031[22]
+3096945-3097017[73] (1) 3097019-3097080[62] (62) 3097143-3097317[175] (1) 3097319-3097340[22]
+
+Details of the LTR alignment(5'-end):
+                                       |3098636
+GGTTG---TCACAGGAATACCCCACTCCTGATACCAATTTGTCTTAGTCAGGGTTTCTATTCCTGCACAAACATCATGACC
+||  |   | | | ||| |    | ||   | ||| |  *|||||||||||||||||||||||||||||||||||||||||
+GGGAGACCTTA-AAGAAGAGGAAAATC---AAACC-ACCTGTCTTAGTCAGGGTTTCTATTCCTGCACAAACATCATGACC
+                                 **-***|3096945
+
+Details of the LTR alignment(3'-end):
+                                3099031|-----*****----
+ACTCCAGCTGTGTCAAGCTGACACAAAACTAGCCAGTACA-----CCACC----CAACCAAACAAGATAAACAAAAAACAA
+||||||||||||||||| |||||||||||||||||||||*     || ||    ||||   |||  | ||||| |  || |
+ACTCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACAATTGACC-CCTTGTCAACTTGACAC-ACAAACACATCACTA
+                                3097340|
+
+Details of PPT(-):
+CATTCTTTTTTTTTT
+|3097397
+
+[9] 17 Len:25593420
+Location : 3342098 - 3347265 Len: 5168 Strand:-
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 3342098 - 3342447 Len: 350
+3'-LTR   : 3346916 - 3347265 Len: 350
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 3342092 - 3342097 , 3347266 - 3347271 [CCTGTT]
+Sharpness: 0.543,0.543
+Strand - :
+PPT   : [15/15] 3342448 - 3342462
+
+Details of exact match pairs:
+3346915-3347265[351]
+3342097-3342447[351]
+
+Details of the LTR alignment(5'-end):
+                                        |3346916
+CGG-ATTTTCTC-GTCCCGGAATTCGGCA---CC---AATTGTTATTAGACGCGTTCTCACGACCGGCCAGGAAGAACACC
+ || |  | ||| |  ||  | || ||||   ||     *|||||||||||||||||||||||||||||||||||||||||
+AGGCAGGTGCTCAGAGCCACAGTT-GGCAGTGCCCCTGTTTGTTATTAGACGCGTTCTCACGACCGGCCAGGAAGAACACC
+                                  ******|3342098
+
+Details of the LTR alignment(3'-end):
+                                 3347265|------******
+GCGCCATCTTGTAACGGCGAATGTGGGGGCGGCTCCCAACA------CCTGTTGGC----AGTG-GCGCTGACTCTAGCTT
+|||||||||||||||||||||||||||||||||||||||*|      ||| ||  |    | |  | ||  |   |||   
+GCGCCATCTTGTAACGGCGAATGTGGGGGCGGCTCCCAACATCTCCCCCTTTTT-CTTTTAATAAGAGCAAA---TAG---
+                                 3342447|
+
+Details of PPT(-):
+TCTCCCCCTTTTTCT
+|3342448
+
+[10] 17 Len:25593420
+Location : 4135143 - 4140718 Len: 5576 Strand:-
+Score    : 6 [LTR region similarity:0.994]
+Status   : 11111010000
+5'-LTR   : 4135143 - 4135624 Len: 482
+3'-LTR   : 4140237 - 4140718 Len: 482
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 4135139 - 4135142 , 4140719 - 4140722 [CTTC]
+Sharpness: 0.471,0.457
+Strand - :
+PPT   : [14/15] 4135625 - 4135639
+
+Details of exact match pairs:
+4140269-4140308[40] (1) 4140310-4140718[409]
+4135175-4135214[40] (1) 4135216-4135624[409]
+
+Details of the LTR alignment(5'-end):
+                                       |4140237
+GTGGTCACGCT---AATC----CCGGACGAGCCCCCAAATGAAAGACTCCGAGAGGAGCCCCTCGCTCAGGCCTCAGGACA
+ || |  || |   || |    || ||  |||  |    *||||||||||||||| |||||||||||||| ||||||||||
+CTGCTATCGTTCCAAAGCATGGCCAGA-AAGCTTC----TGAAAGACTCCGAGAGTAGCCCCTCGCTCAGTCCTCAGGACA
+                               ****----|4135143
+
+Details of the LTR alignment(3'-end):
+                              4140718|****
+GGCTTCTGTGTCCTTTTACATTCTGCCAGGATCTTTCACTTCCTCTCT-CT-CTATGTCTCCTCTCTTCC--TCCTGGGAT
+|||||||||||||||||||||||||||||||||||||| |||* | || || ||| || | ||   |||   || | | | 
+GGCTTCTGTGTCCTTTTACATTCTGCCAGGATCTTTCA-TTCCCCACTTCTTCTA-GT-TACTAG-TTCTAATCTTAGAA-
+                              4135624|
+
+Details of PPT(-):
+TTCCCCACTTCTTCT
+|4135625
+
+[11] 17 Len:25593420
+Location : 5155984 - 5159408 Len: 3425 Strand:-
+Score    : 6 [LTR region similarity:0.997]
+Status   : 11111010000
+5'-LTR   : 5155984 - 5156320 Len: 337
+3'-LTR   : 5159072 - 5159408 Len: 337
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 5155978 - 5155983 , 5159409 - 5159414 [CTCTGG]
+Sharpness: 0.543,0.543
+Strand - :
+PPT   : [15/15] 5156321 - 5156335
+
+Details of exact match pairs:
+5159072-5159346[275] (1) 5159348-5159408[61]
+5155984-5156258[275] (1) 5156260-5156320[61]
+
+Details of the LTR alignment(5'-end):
+                                       |5159072
+CCGAGTTTTTTCT---CGTCC-CGGGTTTCAGCACCAATTGTTATTAATCGCGTTCTCACGCCCGGCCAGGAAGAACACAG
+   | | |   ||   | |||  ||| |  | |  |   *|||||||||||||||||||||||||||||||||||||||||
+---A-TATAGGCTAAGCATCCATGGGCTAAATCCTCTGGTGTTATTAATCGCGTTCTCACGCCCGGCCAGGAAGAACACAG
+                                 ******|5155984
+
+Details of the LTR alignment(3'-end):
+                                  5159408|-******
+AGCGCCATCTTGTAACGGCGAATGTGGGCGCGGCTCCCAACA-CTCTGGAACCAGGGACCAAAATAAATGTTTTCTGCTGT
+|||||||||||||||||||||||||||||||||||||*|||| |||     ||     ||          ||| ||  | |
+AGCGCCATCTTGTAACGGCGAATGTGGGCGCGGCTCCCAACATCTC-----CC-----CC----------TTTCCT--TTT
+                                  5156320|
+
+Details of PPT(-):
+TCTCCCCCTTTCCTT
+|5156321
+
+[12] 17 Len:25593420
+Location : 5381643 - 5389069 Len: 7427 Strand:+
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 5381643 - 5382128 Len: 486
+3'-LTR   : 5388584 - 5389069 Len: 486
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 5381637 - 5381642 , 5389070 - 5389075 [AGACAG]
+Sharpness: 0.457,0.529
+Strand + :
+PPT   : [14/15] 5388569 - 5388583
+
+Details of exact match pairs:
+5388584-5389070[487]
+5381643-5382129[487]
+
+Details of the LTR alignment(5'-end):
+                                      |5388584
+GGTGGCCTATTTGCTCTTATTAAAAGGATAGGGGGAGATGTTGGGAGCCGCGCCCACATTCGCCGTTACAAGATGGCGCTG
+|| | |  |  ||    ||||   |||| |  |  || |||*|||||||||||||||||||||||||||||||||||||||
+GGAGTC--AGGTG--AGTATT--GAGGACA--GACAG-TGTTGGGAGCCGCGCCCACATTCGCCGTTACAAGATGGCGCTG
+                             *--*****-|5381643
+
+Details of the LTR alignment(3'-end):
+                                5389069|******
+GTGTTCTTCCTGGCCGGTCGTGAGAACGCGTCTAATAACAAGACAGCATCGG-GCAGGCTTCCAGCTGCTCTGACG-GATA
+||||||||||||||||||||||||||||||||||||||||*       | || || |  |||| |       |||| || |
+GTGTTCTTCCTGGCCGGTCGTGAGAACGCGTCTAATAACAA-------TTGGTGCCGAATTCCGG-------GACGAGAAA
+                                5382128|
+
+Details of PPT(+):
+AAGGATAGGGGGAGA
+|5388569
+
+[13] 17 Len:25593420
+Location : 5497037 - 5503431 Len: 6395 Strand:+
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 5497037 - 5497528 Len: 492
+3'-LTR   : 5502940 - 5503431 Len: 492
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 5497032 - 5497036 , 5503432 - 5503436 [GTTGT]
+Sharpness: 0.543,0.471
+Strand + :
+PPT   : [11/15] 5502925 - 5502939
+
+Details of exact match pairs:
+5502939-5503432[494]
+5497036-5497529[494]
+
+Details of the LTR alignment(5'-end):
+                                        |5502940
+-ATTATTTGTG-TCAAGTTGACAA-------GGGGTGGATTGTAGTGGCTATTCCTGGTTGTCAACTTGACAATATTTGGA
+ || | || |  |||   ||| ||         ||| | *|||||||||||||||||||||||||||||||||||||||||
+AATCACTT-TACTCATTCTGAAAATATCTTTAAGGTTG-TTGTAGTGGCTATTCCTGGTTGTCAACTTGACAATATTTGGA
+                                  ****-*|5497037
+
+Details of the LTR alignment(3'-end):
+                                5503431|*****
+TCCATAAGTTCTGTGACTCTAGAGAACCCTGACTAATACAGTTGTGGTAGTTACTATACGATTATGTT-TGAAGT--CTGG
+|||||||||||||||||||||||||||||||||||||||*|  ||  | || || |   || |  ||| |  |||  | | 
+TCCATAAGTTCTGTGACTCTAGAGAACCCTGACTAATACAGAAGT--TGGT-ACCAG--GAGTG-GTTCTAGAGTAACAGA
+                                5497528|
+
+Details of PPT(+):
+TGACAAGGGGTGGAT
+|5502925
+
+[14] 17 Len:25593420
+Location : 6082748 - 6084628 Len: 1881 Strand:-
+Score    : 6 [LTR region similarity:0.954]
+Status   : 11111010000
+5'-LTR   : 6082748 - 6083141 Len: 394
+3'-LTR   : 6084237 - 6084628 Len: 392
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 6082743 - 6082747 , 6084629 - 6084633 [GATGG]
+Sharpness: 0.514,0.443
+Strand - :
+PPT   : [12/15] 6083200 - 6083214
+
+Details of exact match pairs:
+6084237-6084309[73] (1) 6084311-6084418[108] (77) 6084496-6084541[46] (10) 6084552-6084576[25] (10) 6084587-6084628[42]
+6082748-6082820[73] (1) 6082822-6082929[108] (76) 6083006-6083051[46] (10) 6083062-6083086[25] (13) 6083100-6083141[42]
+
+Details of the LTR alignment(5'-end):
+                                       |6084237
+T--TGTCACAGGAATACCTCACTCTGCTGGTACCAAT-TTGTCTTAGTCAGGGTTTCTATTCCTGCACAAACATCATGACC
+|  ||| ||   ||| |||||||||  | |     ||  *|||||||||||||||||||||||||||||||||||||||||
+TTCTGTGAC---AAT-CCTCACTCT--TAG----GATGGTGTCTTAGTCAGGGTTTCTATTCCTGCACAAACATCATGACC
+                                  *****|6082748
+
+Details of the LTR alignment(3'-end):
+                                  6084628|*****
+TAACTCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACAGATGGTGTCTCTCTTCGGATGTT--TTATGGCTCTGCAG
+||||||||||||||||||||||||||||||||||||||*||| ||  || | | |||     ||    | || | |  || 
+TAACTCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACA-AT--TGACCC-CTT-----GTCAACT-TGACAC-ACAA
+                                  6083141|
+
+Details of PPT(-):
+ATCTTATTCATCCCC
+|6083200
+
+[15] 17 Len:25593420
+Location : 6358179 - 6360852 Len: 2674 Strand:+
+Score    : 6 [LTR region similarity:0.997]
+Status   : 11111010000
+5'-LTR   : 6358179 - 6358530 Len: 352
+3'-LTR   : 6360501 - 6360852 Len: 352
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 6358173 - 6358178 , 6360853 - 6360858 [GTCAGG]
+Sharpness: 0.514,0.486
+Strand + :
+PPT   : [15/15] 6360485 - 6360499
+
+Details of exact match pairs:
+6360501-6360799[299] (1) 6360801-6360852[52]
+6358179-6358477[299] (1) 6358479-6358530[52]
+
+Details of the LTR alignment(5'-end):
+                                       |6360501
+CTCTGCCA--AAAAAGAAAAAAGGGG---GAAT------TGTGGGGAGCGGGTGTGGCGGCAGTCCCAAAGGCGCCAGGGA
+||||  ||   ||| |   || || |   ||||      *|||||||||||||||||||||||||||||||||||||||||
+CTCTTGCATTGAAATG-TGAATGGTGACTGAATGTCAGGTGTGGGGAGCGGGTGTGGCGGCAGTCCCAAAGGCGCCAGGGA
+                                 ******|6358179
+
+Details of the LTR alignment(3'-end):
+                                6360852|*****--*
+GTGGTCGCGTCGTTCTTGCTGGTCGAGAGCGGGCGCGACAGTCAG--GCTTCT-T-------CAACTCCTTTCA--GAAGT
+|||||||||||||||||||||||||||||||||||||||* |  |  ||  || |       | |||||   ||  || ||
+GTGGTCGCGTCGTTCTTGCTGGTCGAGAGCGGGCGCGACAATTGGTGGCCCCTATGGGGAACCGACTCCCC-CACCGA-GT
+                                6358530|
+
+Details of PPT(+):
+AGAAAAAAGGGGGAA
+|6360485
+
+[16] 17 Len:25593420
+Location : 6753366 - 6755251 Len: 1886 Strand:+
+Score    : 6 [LTR region similarity:0.99]
+Status   : 11111010000
+5'-LTR   : 6753366 - 6753759 Len: 394
+3'-LTR   : 6754857 - 6755251 Len: 395
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 6753361 - 6753365 , 6755252 - 6755256 [ACTAC]
+Sharpness: 0.471,0.486
+Strand + :
+PPT   : [13/15] 6754784 - 6754798
+
+Details of exact match pairs:
+6754857-6755021[165] (1) 6755023-6755129[107] (1) 6755131-6755205[75] (1) 6755207-6755229[23] (1) 6755231-6755252[22]
+6753366-6753530[165] (0) 6753531-6753637[107] (1) 6753639-6753713[75] (1) 6753715-6753737[23] (1) 6753739-6753760[22]
+
+Details of the LTR alignment(5'-end):
+                                       |6754857
+AG-TGATGTGTTTGTGTTTCAAGTTGACAAGGGGTCAATTGTACTGGCTAGTTTTGTGTCAACTTGACACAGCTGGGGTTA
+|| |||| | ||| ||  |||  |||||      |  | |*||||||||||||||||||||||||||||||||||||||||
+AGTTGATTTTTTTCTG--TCA--TTGAC------T--ACTGTACTGGCTAGTTTTGTGTCAACTTGACACAGCTGGGGTTA
+                          **------*--**|6753366
+
+Details of the LTR alignment(3'-end):
+                                6755251|***----**
+TCATGATGTTTGTGCAGGTATAGAAACCCTGACTAAGACAACT----ACACAATAGGAAGACTGACGTTTTTCTTGAGAAC
+|||||||||||||||||| |||||||||||||||||||||* |    || ||  ||  ||  ||  || || ||   |   
+TCATGATGTTTGTGCAGGAATAGAAACCCTGACTAAGACAAATTGGTAC-CAGCAG--AG--TGGGGTATTCCT---G---
+                                6753759|
+
+Details of PPT(+):
+GGGGATGAATAAGAA
+|6754784
+
+[17] 17 Len:25593420
+Location : 6896147 - 6900489 Len: 4343 Strand:+
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 6896147 - 6896639 Len: 493
+3'-LTR   : 6899997 - 6900489 Len: 493
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 6896142 - 6896146 , 6900490 - 6900494 [GTACC]
+Sharpness: 0.5,0.543
+Strand + :
+PPT   : [11/15] 6899982 - 6899996
+
+Details of exact match pairs:
+6899997-6900490[494]
+6896147-6896640[494]
+
+Details of the LTR alignment(5'-end):
+                                       |6899997
+TTG---------TG--T-CAAGTTGACAAGGGGTGGA-TTGTAGTGGCTATTCCTGGTTGTCAACTTGACAATATTTGGAA
+|||         ||  | ||| || | |     || |  *|||||||||||||||||||||||||||||||||||||||||
+TTGCCTTTTCTTTGGATCCAAATTCATA-----TGTACCTGTAGTGGCTATTCCTGGTTGTCAACTTGACAATATTTGGAA
+                                  *****|6896147
+
+Details of the LTR alignment(3'-end):
+                                6900489|*****
+TCCATAAGTTCTGTGACTCTAGAGAACCCTGACTAATACAGTACCCATC--TCCCATC--TGCCCCTTTCATCACAG--GT
+|||||||||||||||||||||||||||||||||||||||*| |    |   | |||    ||   ||    | ||||  ||
+TCCATAAGTTCTGTGACTCTAGAGAACCCTGACTAATACAGAA---GTTGGTACCAGGAGTGGTTCTAGAGTAACAGAAGT
+                                6896639|
+
+Details of PPT(+):
+TGACAAGGGGTGGAT
+|6899982
+
+[18] 17 Len:25593420
+Location : 6946468 - 6953576 Len: 7109 Strand:-
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 6946468 - 6946805 Len: 338
+3'-LTR   : 6953239 - 6953576 Len: 338
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 6946462 - 6946467 , 6953577 - 6953582 [GATCCC]
+Sharpness: 0.543,0.614
+Strand - :
+PPT   : [14/15] 6946806 - 6946820
+
+Details of exact match pairs:
+6953239-6953576[338]
+6946468-6946805[338]
+
+Details of the LTR alignment(5'-end):
+                                       |6953239
+AGTCCCGAGTTTTTTCTCGTCCCGGAATTCGGCACCAATTGTTATTAGACGCGTTCTCACGACCGGCCAGGAAAGACGCAA
+|||   | ||| | | | ||   |||  ||    ||   |*||||||||||||||||||||||||||||||||||||||||
+AGT---G-GTTGTATATGGT-ATGGA--TC----CC---TGTTATTAGACGCGTTCTCACGACCGGCCAGGAAAGACGCAA
+                        **--**----**---|6946468
+
+Details of the LTR alignment(3'-end):
+                             6953576|******
+CATCTTGTAACGGCGAATGTGGGCGCGGCTCCCAACAGATCCCCAGGTGGGTCAGTCTCTGGATGGTCTTTCCTTCAGTCT
+|||||||||||||||||||||||||||||||||||||  ||||*              ||  ||   ||||   | ||   
+CATCTTGTAACGGCGAATGTGGGCGCGGCTCCCAACATCTCCCC--------------CT--AT--CCTTTTAATAAGAG-
+                             6946805|
+
+Details of PPT(-):
+TCTCCCCCTATCCTT
+|6946806
+
+[19] 17 Len:25593420
+Location : 8263698 - 8270857 Len: 7160 Strand:-
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 8263698 - 8264066 Len: 369
+3'-LTR   : 8270489 - 8270857 Len: 369
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 8263692 - 8263697 , 8270858 - 8270863 [CCCCAC]
+Sharpness: 0.571,0.486
+Strand - :
+PPT   : [15/15] 8264067 - 8264081
+
+Details of exact match pairs:
+8270489-8270857[369]
+8263698-8264066[369]
+
+Details of the LTR alignment(5'-end):
+                                     |8270489
+TCCCGAGTTTTTTCTCGTCCCGGGTTTCGGCACCAATTGTTATTAGACGCGTTCTCACGACCGGCCAGGAAAGACGCAACA
+ ||| |       |    |||         |||    ||||*|||||||||||||||||||||||||||||||||||||||
+-CCCAA-------C----CCC---------CAC----TGTTATTAGACGCGTTCTCACGACCGGCCAGGAAAGACGCAACA
+                  ***---------***----|8263698
+
+Details of the LTR alignment(3'-end):
+                                  8270857|******
+AGCGCCATCTTGTAACGGCGAATGTGGGGGCGGCTCCCAACACCCCACCCCCCAGTCCATTCTTGGTGTTTGGAGCCA---
+|||||||||||||||||||||||||||||||||||||*|||| | |   ||||  |   |||||  |  |  |||| |   
+AGCGCCATCTTGTAACGGCGAATGTGGGGGCGGCTCCCAACATCTC---CCCC--TT--TTCTTT-TAATAAGAGCAAATA
+                                  8264066|
+
+Details of PPT(-):
+TCTCCCCCTTTTCTT
+|8264067
+
+[20] 17 Len:25593420
+Location : 9233984 - 9242249 Len: 8266 Strand:+
+Score    : 6 [LTR region similarity:0.926]
+Status   : 11111010000
+5'-LTR   : 9233984 - 9234328 Len: 345
+3'-LTR   : 9241898 - 9242249 Len: 352
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 9233978 - 9233983 , 9242250 - 9242255 [GTCATA]
+Sharpness: 0.443,0.457
+Strand + :
+PPT   : [13/15] 9241883 - 9241897
+
+Details of exact match pairs:
+9241941-9241979[39] (26) 9242006-9242092[87] (62) 9242155-9242181[27] (12) 9242194-9242227[34]
+9234027-9234065[39] (25) 9234091-9234177[87] (56) 9234234-9234260[27] (12) 9234273-9234306[34]
+
+Details of the LTR alignment(5'-end):
+                                        |9241898
+G-TCCAGCATCATTTTATTAAAATTAAA-AGGGGG--AGATGTGGGAAGCCACATATGCCATTGCTGGATGGCACTGGCTA
+  ||||  |  |  |||  ||| | | | | |  |  | *||||||||||||||||  ||||||| |||||||||||||||
+ACTCCA--A--AACTTAACAAATTCAGATATGAAGTCATATGTGGGAAGCCACATACACCATTGCAGGATGGCACTGGCTA
+                                  ******|9233984
+
+Details of the LTR alignment(3'-end):
+                                9242249|-******
+TGTTGTGGCGTCTTTCTTACTGGTAAGTCGGGCACTCACA-GTCATAC--AAA---GGGAAAATGCTATCTAAAGATACCT
+|||||||||||||||||| ||||| ||||||||||||||* ||  | |  |||   |||| ||  | ||||  ||  ||  
+TGTTGTGGCGTCTTTCTTGCTGGTGAGTCGGGCACTCACAAGTGGTGCCTAAACCCGGGACAAGAC-ATCTTCAGGCACGA
+                                9234328|
+
+Details of PPT(+):
+ATTAAAAGGGGGAGA
+|9241883
+
+[21] 17 Len:25593420
+Location : 9715689 - 9725004 Len: 9316 Strand:+
+Score    : 6 [LTR region similarity:0.945]
+Status   : 11111010000
+5'-LTR   : 9715689 - 9715943 Len: 255
+3'-LTR   : 9724751 - 9725004 Len: 254
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 9715685 - 9715688 , 9725005 - 9725008 [GAGA]
+Sharpness: 0.571,0.557
+Strand + :
+PPT   : [15/15] 9724736 - 9724750
+
+Details of exact match pairs:
+9724791-9724859[69] (19) 9724879-9724902[24] (1) 9724904-9724928[25] (4) 9724933-9724960[28] (11) 9724972-9725016[45]
+9715729-9715797[69] (19) 9715817-9715840[24] (1) 9715842-9715866[25] (4) 9715871-9715898[28] (12) 9715911-9715955[45]
+
+Details of the LTR alignment(5'-end):
+                                          |9724751
+TTCTCTCTGCCAA---A----A----AAGAAAAAAGGGGAGATGTGGGGAACAGGTGTGGTGGTAGTCCCAAGATGGTGCC
+        |  ||   |    |    | |  |  || *|||||||||||| ||||||||| |||||||||||||||| |||
+-------GGGGAAGGGAGGGGAGGGGAGGGGAGGAGAGGAGATGTGGGGAGCAGGTGTGGCGGTAGTCCCAAGATGGCGCC
+                                      ****|9715689
+
+Details of the LTR alignment(3'-end):
+                           9725004|****
+GAATTGCAATTGGGGGCTAGAGAGGGATTCCTGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGA
+| |||||||||||||||||||||||||||||||||||||||||||*|                              |   
+GGATTGCAATTGGGGGCTAGAGAGGGATTCCTGCAGAGAGAGAGAGATTCCT-------------------------GCTT
+                           9715943|
+
+Details of PPT(+):
+AGAAAAAAGGGGAGA
+|9724736
+
+[22] 17 Len:25593420
+Location : 10051185 - 10065004 Len: 13820 Strand:+
+Score    : 6 [LTR region similarity:0.953]
+Status   : 11111010000
+5'-LTR   : 10051185 - 10051332 Len: 148
+3'-LTR   : 10064857 - 10065004 Len: 148
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 10051179 - 10051184 , 10065005 - 10065010 [AAAAAA]
+Sharpness: 0.429,0.471
+Strand + :
+PPT   : [13/15] 10064782 - 10064796
+
+Details of exact match pairs:
+10064861-10064881[21] (18) 10064900-10064930[31] (1) 10064932-10064972[41] (1) 10064974-10064995[22] (5) 10065001-10065020[20]
+10051188-10051208[21] (18) 10051227-10051257[31] (1) 10051259-10051299[41] (1) 10051301-10051322[22] (6) 10051329-10051348[20]
+
+Details of the LTR alignment(5'-end):
+                                     |10064857
+TGCCAA-AGACAAAGAGTCA-C-CTTAAAAATGTACCTGTCAGCCGGGCGTGGTGGCGCACGGCTTTAATCCCAGCACTTG
+||  |   |   ||   ||| | ||||||||   |  ||| *|||||||||||||||||||| |||||||||||||||| |
+TG--AGTTGTTTAAATTTCATCTCTTAAAAA-AAAAATGT-AGCCGGGCGTGGTGGCGCACGCCTTTAATCCCAGCACTCG
+                              *-*****|10051185
+
+Details of the LTR alignment(3'-end):
+                       10065004|******
+CTACACAGAGAAACCCTGTCTCGAAAA-ACCAAAAAAAAAAAAAAAAAAAAATGTACCTGTCACTTATTTTG--TTATA-T
+|||||||||||||||||||||| |||| |||||||||||||||||||*     ||| | |  |   ||||||  ||| | |
+CTACACAGAGAAACCCTGTCTCAAAAACACCAAAAAAAAAAAAAAAAA-----GTAACAGG-A---ATTTTGGCTTAGAAT
+                       10051332|
+
+Details of PPT(+):
+ACAGAAAAAGCAAGG
+|10064782
+
+[23] 17 Len:25593420
+Location : 10318958 - 10326111 Len: 7154 Strand:-
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 10318958 - 10319340 Len: 383
+3'-LTR   : 10325729 - 10326111 Len: 383
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 10318952 - 10318957 , 10326112 - 10326117 [AGAAGG]
+Sharpness: 0.514,0.643
+Strand - :
+PPT   : [15/15] 10319341 - 10319355
+
+Details of exact match pairs:
+10325729-10326111[383]
+10318958-10319340[383]
+
+Details of the LTR alignment(5'-end):
+                                       |10325729
+TTTT--T----TCTCGTCCCGGGTTTCGGCACCA-A--TTGTTATTAGACGCGTTCTCACGACCGGCCAGGAAAGACGCAA
+ |||  |    | |||   |  ||   | ||||| |   *|||||||||||||||||||||||||||||||||||||||||
+ATTTCATAAGCTTTCGAAAC-AGT---GCCACCAGAAGGTGTTATTAGACGCGTTCTCACGACCGGCCAGGAAAGACGCAA
+                                 ******|10318958
+
+Details of the LTR alignment(3'-end):
+                                10326111|------------------******
+GCGCCATCTTGTAACGGCGAATGTGGGGGCGGCTCCCAACA------------------AGAAGGG-GGAT----CAA--A
+|||||||||||||||||||||||||||||||||||||||*|                  | ||| |   ||    ||   |
+GCGCCATCTTGTAACGGCGAATGTGGGGGCGGCTCCCAACATCTCCCCCTTTTCTTTTAATAAGAGCAAATAGGCCACCCA
+                                10319340|
+
+Details of PPT(-):
+TCTCCCCCTTTTCTT
+|10319341
+
+[24] 17 Len:25593420
+Location : 10329175 - 10334675 Len: 5501 Strand:+
+Score    : 6 [LTR region similarity:0.981]
+Status   : 11111010000
+5'-LTR   : 10329175 - 10329496 Len: 322
+3'-LTR   : 10334355 - 10334675 Len: 321
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 10329169 - 10329174 , 10334676 - 10334681 [ACCCAC]
+Sharpness: 0.6,0.586
+Strand + :
+PPT   : [14/15] 10334340 - 10334354
+
+Details of exact match pairs:
+10334355-10334402[48] (1) 10334404-10334476[73] (14) 10334491-10334528[38] (1) 10334530-10334676[147]
+10329175-10329222[48] (1) 10329224-10329296[73] (15) 10329312-10329349[38] (1) 10329351-10329497[147]
+
+Details of the LTR alignment(5'-end):
+                                       |10334355
+TTTTTTAAGTTTTGTTAATAAA-------AGGGAGGAAATGTAGTCTCCCCTCCCCCAGCCTGAAACCTGCTTGCTCAGGG
+ |   |||    ||  | |  |       ||  |   | *|||||||||||||||||||||||||||||||||||||||||
+ATGGGTAAA---TGCCACTGCATCTGCTCAGTCACCCACTGTAGTCTCCCCTCCCCCAGCCTGAAACCTGCTTGCTCAGGG
+                                 ******|10329175
+
+Details of the LTR alignment(3'-end):
+                               10334675|***--*--**
+GGCTAGAACCCAGGTTGTGGTCTGCTGGCCGGACACAACAACC--C--ACACATCTCTTGGGAC----ATATGGCC-----
+||||||||||||||||||||||||||||||||||||||||*    |  || || | |  |||||    | |  ||      
+GGCTAGAACCCAGGTTGTGGTCTGCTGGCCGGACACAACAATTGGCGAAC-CAACGC--GGGACTGAGAAACAGCAAAAGA
+                               10329496|
+
+Details of PPT(+):
+ATAAAAGGGAGGAAA
+|10334340
+
+[25] 17 Len:25593420
+Location : 10408199 - 10415304 Len: 7106 Strand:+
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 10408199 - 10408536 Len: 338
+3'-LTR   : 10414967 - 10415304 Len: 338
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 10408193 - 10408198 , 10415305 - 10415310 [CCACAT]
+Sharpness: 0.529,0.471
+Strand + :
+PPT   : [15/15] 10414951 - 10414965
+
+Details of exact match pairs:
+10414967-10415304[338]
+10408199-10408536[338]
+
+Details of the LTR alignment(5'-end):
+                                       |10414967
+TTTGCT-CTTATTAAAAGAAAAAGGG--GGA----AC--TGTGGGAAGCCGCCCCCACATTCGCCGTCACAAGATGGCGCT
+|||| | | |       |   | |||  |||    ||  *|||||||||||||||||||||||||||||||||||||||||
+TTTGGTGCCT-------GCCCATGGGATGGATCCCACATTGTGGGAAGCCGCCCCCACATTCGCCGTCACAAGATGGCGCT
+                                 ******|10408199
+
+Details of the LTR alignment(3'-end):
+                                  10415304|******
+GTTGTGTTCTTCCTGGCCGGTCGTGAGAACGCGACGAATAACACCACATTGG-GCC--AGTCACTGGTCG-GCCATTCCTT
+||||||||||||||||||||||||||||||||||||*||||||    ||||| |||  | || | || || |  |   || 
+GTTGTGTTCTTCCTGGCCGGTCGTGAGAACGCGACGAATAACA----ATTGGTGCCGAATTC-CGGGACGAGAAAAAACTC
+                                  10408536|
+
+Details of PPT(+):
+AAGAAAAAGGGGGAA
+|10414951
+
+[26] 17 Len:25593420
+Location : 10575751 - 10588297 Len: 12547 Strand:-
+Score    : 6 [LTR region similarity:0.997]
+Status   : 11111010000
+5'-LTR   : 10575751 - 10576089 Len: 339
+3'-LTR   : 10587959 - 10588297 Len: 339
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 10575745 - 10575750 , 10588298 - 10588303 [CTCTGT]
+Sharpness: 0.543,0.443
+Strand - :
+PPT   : [15/15] 10576090 - 10576104
+
+Details of exact match pairs:
+10587958-10588159[202] (1) 10588161-10588297[137]
+10575750-10575951[202] (1) 10575953-10576089[137]
+
+Details of the LTR alignment(5'-end):
+                                        |10587959
+CCGAGTTTTTTTCTCGT-CCCGGAATTCG---GCACCAATTGTTATTAGACGCGTTCTCACGACCGGCCAGGAAAGACGCA
+    || |  | |  || |  | |||| |   ||  |  *|||||||||||||||||||||||||||||||||||||||||
+----GTGTCCTGCATGTGCATGTAATT-GATTGC-TCTGTTGTTATTAGACGCGTTCTCACGACCGGCCAGGAAAGACGCA
+                                 *-*****|10575751
+
+Details of the LTR alignment(3'-end):
+                             10588297|-***----***
+CCATCTTGTAACGGCGAATGTGGGCGCGGCTCCCAACA-CTC----TGTCCCC---ACAAG--CAAA---GCCAAGTACTA
+|||||||||||||||||||||||||||||||||||||| ||*    | |||     | |||  ||||   ||||   | ||
+CCATCTTGTAACGGCGAATGTGGGCGCGGCTCCCAACATCTCCCCCTTTCCTTTTAATAAGAGCAAATAGGCCACCCA-TA
+                             10576089|
+
+Details of PPT(-):
+TCTCCCCCTTTCCTT
+|10576090
+
+[27] 17 Len:25593420
+Location : 10580644 - 10586060 Len: 5417 Strand:+
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 10580644 - 10581062 Len: 419
+3'-LTR   : 10585642 - 10586060 Len: 419
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 10580638 - 10580643 , 10586061 - 10586066 [TTTGAG]
+Sharpness: 0.571,0.5
+Strand + :
+PPT   : [15/15] 10585627 - 10585641
+
+Details of exact match pairs:
+10585642-10586060[419]
+10580644-10581062[419]
+
+Details of the LTR alignment(5'-end):
+                                       |10585642
+CCT-----ATTTGCTCTTATTAAAAGAAAAAGGGGGAGATGTTGGGAGCCGCGCCCACATTCGCCGTTACAAGATGGCGCT
+|||     |   | ||  ||         |     ||| |*||||||||||||||||||||||||||||||||||||||||
+CCTGACAAACCGGTTCCCAT---------ATCTTTGAG-TGTTGGGAGCCGCGCCCACATTCGCCGTTACAAGATGGCGCT
+                                ******-|10580644
+
+Details of the LTR alignment(3'-end):
+                                10586060|******
+GGTGTTCTTCCTGGCCGGTCGTGAGAACGCGTCTAATAACATTTGAGGGCC-----CTGGGACCGAGGGCCCGATGA-CCC
+|||||||||||||||||||||||||||||||||||||||*| ||| | |||     | ||||| |||      |  | | |
+GGTGTTCTTCCTGGCCGGTCGTGAGAACGCGTCTAATAACAATTG-GTGCCGAAACCCGGGAC-GAGAAAAAAAAAAACTC
+                                10581062|
+
+Details of PPT(+):
+AGAAAAAGGGGGAGA
+|10585627
+
+[28] 17 Len:25593420
+Location : 10665182 - 10667870 Len: 2689 Strand:-
+Score    : 6 [LTR region similarity:0.94]
+Status   : 11111010000
+5'-LTR   : 10665182 - 10665582 Len: 401
+3'-LTR   : 10667474 - 10667870 Len: 397
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 10665176 - 10665181 , 10667871 - 10667876 [ATATAT]
+Sharpness: 0.529,0.529
+Strand - :
+PPT   : [15/15] 10665583 - 10665597
+
+Details of exact match pairs:
+10667522-10667541[20] (28) 10667570-10667597[28] (15) 10667613-10667653[41] (1) 10667655-10667706[52] (1) 10667708-10667747[40] (12) 10667760-10667870[111]
+10665232-10665251[20] (36) 10665288-10665315[28] (15) 10665331-10665371[41] (1) 10665373-10665424[52] (1) 10665426-10665465[40] (6) 10665472-10665582[111]
+
+Details of the LTR alignment(5'-end):
+                                    |10667474
+AGACGGTTCCCCATGTGGGC-CAC-CA-AT---TGTTGT---GTCTGCTCTCGACTAGCAAGAACGACATGACCACCAGTC
+| |    |    || |   | ||| || ||   | ||||   |*||||||| ||| ||||||||||||| |||||||||||
+ATATATATATATATATTCACACACACACATATATATTGTCCCGTCTGCTCTTGACCAGCAAGAACGACACGACCACCAGTC
+                              ******|10665182
+
+Details of the LTR alignment(3'-end):
+                                 10667870|******
+CCGGGTGCCAACTTGGGACTGCTGCCACACCCGCTCCTCACAATATATAGCACCAACC--------ACAGAAGGGAAGAG-
+||||||||||||||||||||||||||||||||||||||*|||   | |  | ||  ||         |||| | |||  | 
+CCGGGTGCCAACTTGGGACTGCTGCCACACCCGCTCCTCACA---TCTCCCCCCC-CCTTTTTTTGGCAGA-GAGAAT-GT
+                                 10665582|
+
+Details of PPT(-):
+TCTCCCCCCCCCTTT
+|10665583
+
+[29] 17 Len:25593420
+Location : 10954392 - 10956479 Len: 2088 Strand:-
+Score    : 6 [LTR region similarity:0.99]
+Status   : 11111010000
+5'-LTR   : 10954392 - 10954787 Len: 396
+3'-LTR   : 10956084 - 10956479 Len: 396
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 10954387 - 10954391 , 10956480 - 10956484 [AGGTG]
+Sharpness: 0.457,0.443
+Strand - :
+PPT   : [13/15] 10954846 - 10954860
+
+Details of exact match pairs:
+10956084-10956137[54] (28) 10956166-10956480[315]
+10954392-10954445[54] (28) 10954474-10954788[315]
+
+Details of the LTR alignment(5'-end):
+                                       |10956084
+G-GTTG--TCACAGGAATACCTCACTTCTGATACCAATTTGTCTTAGTCAGGGTTCCTATTCCTGCACAAACATCATGACC
+|  |||  |   |||| | ||||| |    |||    | *|||||||||||||||||||||||||||||||||||||||||
+GAATTGATTTGTAGGAGTTCCTCA-T----ATA--GGTGTGTCTTAGTCAGGGTTCCTATTCCTGCACAAACATCATGACC
+                                *--****|10954392
+
+Details of the LTR alignment(3'-end):
+                               10956479|*****
+ACTCTAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACAAGGTGAATACTAATCT-TTTG-TACATAA-CATATT-CTGC
+||||||||||||||||||||||||||||||||||||||||*  |||   ||  ||   |||  ||| || || ||  ||  
+ACTCTAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACAAT-TGACCCCTTGTCAACTTGACACACAAACACATCACT--
+                               10954787|
+
+Details of PPT(-):
+TTCTTATTCATCCCC
+|10954846
+
+[30] 17 Len:25593420
+Location : 11240124 - 11245347 Len: 5224 Strand:-
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 11240124 - 11240678 Len: 555
+3'-LTR   : 11244793 - 11245347 Len: 555
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 11240120 - 11240123 , 11245348 - 11245351 [GTGG]
+Sharpness: 0.529,0.543
+Strand - :
+PPT   : [14/15] 11240679 - 11240693
+
+Details of exact match pairs:
+11244793-11245347[555]
+11240124-11240678[555]
+
+Details of the LTR alignment(5'-end):
+                                      |11244793
+GGGTGGTCGCGCTGATTCCCGGCCAATGCACC---AAATGAAAGACCCCCGAAGGGAGACCCTTACTCAGACACTCAAGTC
+  ||| ||  |  |      ||  || || ||      |||*|||||||||||||||||||||||||||||||||||||||
+TAGTGATCAAG--G------GGGAAAGGCCCCTTGTGGTGAAAGACCCCCGAAGGGAGACCCTTACTCAGACACTCAAGTC
+                                  ****|11240124
+
+Details of the LTR alignment(3'-end):
+                               11245347|****
+TTGGGGTGAAGAAGAGTTCAGTAAAAATTTTTATTCTTCAGTGGGTGGGACCATCTCTGGGCTGGTA-GTC-TTG-GGTTC
+|||||||||||||||||||||||||||||||||||||||* |        |||  |||   || ||| ||  ||    | |
+TTGGGGTGAAGAAGAGTTCAGTAAAAATTTTTATTCTTCATTCC------CCACTTCTT--CTTGTAAGTAATTCTAATCC
+                               11240678|
+
+Details of PPT(-):
+TTCCCCACTTCTTCT
+|11240679
+
+[31] 17 Len:25593420
+Location : 11240213 - 11245251 Len: 5039 Strand:-
+Score    : 6 [LTR region similarity:0.873]
+Status   : 11111010000
+5'-LTR   : 11240213 - 11240582 Len: 370
+3'-LTR   : 11244882 - 11245251 Len: 370
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 11240209 - 11240212 , 11245252 - 11245255 [AAAA]
+Sharpness: 0.671,0.5
+Strand - :
+PPT   : [13/15] 11240666 - 11240680
+
+Details of exact match pairs:
+11244954-11244979[26] (183) 11245163-11245198[36]
+11240238-11240263[26] (195) 11240459-11240494[36]
+
+Details of the LTR alignment(5'-end):
+                                                    |11244882
+----TCCCGGGACAGCCGCGTACCCAAGAAGACACTGAGACCATACATAAAATGTAGAAGGCAAGATTTAATAAAGTAGCA
+    |||||||||||||||||||||||*|||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAAGTCCCGGGACAGCCGCGTACCCAAGAAGACACTGAGACCATACATAAAATGTAGAAGGCAAGATTTAATAAAGTAGCA
+                                                ****|11240213
+
+Details of the LTR alignment(3'-end):
+                                 11245251|****
+ACCCGGTTCATTTTGAGGTTGTTCTAGGAGGCCTTTATCTCAAAAATGTTCTTGGAACAGTTTTTAGTTGGGAGGGTTCGA
+||||||||||||||||||||||||||||||||||||||*|||||||||||||||||||||||||||||||||||       
+ACCCGGTTCATTTTGAGGTTGTTCTAGGAGGCCTTTATCTCAAAAATGTTCTTGGAACAGTTTTTAGTTGGGAG-------
+                                 11240582|
+
+Details of PPT(-):
+TTTTTATTCTTCATT
+|11240666
+
+[32] 17 Len:25593420
+Location : 11261614 - 11267110 Len: 5497 Strand:+
+Score    : 6 [LTR region similarity:0.997]
+Status   : 11111010000
+5'-LTR   : 11261614 - 11261936 Len: 323
+3'-LTR   : 11266788 - 11267110 Len: 323
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 11261608 - 11261613 , 11267111 - 11267116 [GCTGCA]
+Sharpness: 0.614,0.557
+Strand + :
+PPT   : [14/15] 11266773 - 11266787
+
+Details of exact match pairs:
+11266787-11267065[279] (1) 11267067-11267110[44]
+11261613-11261891[279] (1) 11261893-11261936[44]
+
+Details of the LTR alignment(5'-end):
+                                       |11266788
+TT--TCTTTTTTTAAATTTTGTTAATAAAAGGGAGGAGATGTAGTCTTCCCCTCCCCTAGCCTGAAACCTGCTTGCTCAGG
+ |   ||   |  |   || | |  |    |       |*|||||||||||||||||||||||||||||||||||||||||
+CTGACCTCCATGCAGCCTTAGCTGCT----G------CATGTAGTCTTCCCCTCCCCTAGCCTGAAACCTGCTTGCTCAGG
+                       ***----*------**|11261614
+
+Details of the LTR alignment(3'-end):
+                               11267110|****-*--*
+GGCTAGAACCCAGGTTGTGGTCTGCTGGCCGGACACAACAGCTG-C--AC--AC-----ACT-----------AAGGAT--
+|||||||||||||||||||||||||||||||||||||||*  || |  ||  ||     |||           ||||||  
+GGCTAGAACCCAGGTTGTGGTCTGCTGGCCGGACACAACAATTGGCGAACCAACGCGGGACTGAGAAACGGCAAAGGATTT
+                               11261936|
+
+Details of PPT(+):
+ATAAAAGGGAGGAGA
+|11266773
+
+[33] 17 Len:25593420
+Location : 11346986 - 11348868 Len: 1883 Strand:+
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 11346986 - 11347379 Len: 394
+3'-LTR   : 11348475 - 11348868 Len: 394
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 11346981 - 11346985 , 11348869 - 11348873 [CACCG]
+Sharpness: 0.557,0.471
+Strand + :
+PPT   : [12/15] 11348402 - 11348416
+
+Details of exact match pairs:
+11348475-11348868[394]
+11346986-11347379[394]
+
+Details of the LTR alignment(5'-end):
+                                     |11348475
+GTGATGTTTTTGTGTGTCAAGTTGACAAGGGGTCAATTGTACTGGCTAGTTTTGTGTCAACTTGACACAGCTGGAGTTATC
+|  |             |||||| |||  |       ||||*|||||||||||||||||||||||||||||||||||||||
+GGCA-------------CAAGTTCACACCG-------TGTACTGGCTAGTTTTGTGTCAACTTGACACAGCTGGAGTTATC
+                         *****-------|11346986
+
+Details of the LTR alignment(3'-end):
+                                11348868|*****---
+GTCATGATGTTTGTGCAGGAATAGAAACCCCGACTAAGACACACCG---CCAGAGGTAAAGAAGTGT--CTGGG-------
+|||||||||||||||||||||||||||||||||||||||*| |  |   |||| || |  |  || |  ||| |       
+GTCATGATGTTTGTGCAGGAATAGAAACCCCGACTAAGACAAATTGGTACCAGTGG-AGTGGGGTATTCCTGTGACAACCT
+                                11347379|
+
+Details of PPT(+):
+GGGGATGAATAAGAT
+|11348402
+
+[34] 17 Len:25593420
+Location : 13457469 - 13459357 Len: 1889 Strand:-
+Score    : 6 [LTR region similarity:0.995]
+Status   : 11111010000
+5'-LTR   : 13457469 - 13457864 Len: 396
+3'-LTR   : 13458962 - 13459357 Len: 396
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 13457464 - 13457468 , 13459358 - 13459362 [CCAGA]
+Sharpness: 0.529,0.557
+Strand - :
+PPT   : [13/15] 13457923 - 13457937
+
+Details of exact match pairs:
+13458974-13459301[328] (1) 13459303-13459357[55]
+13457481-13457808[328] (1) 13457810-13457864[55]
+
+Details of the LTR alignment(5'-end):
+                                      |13458962
+GTCACAGGAATACCCCA-CTCTGCTGGTA--CCA-ATTTGTCTTAGTCATGGTCTCTATTCCTGCACAAACATCATGACCA
+ |  |     || || |  | |  || ||  ||| |  |||*||||||| |||||||||||||||||||||||||||||||
+TTTGC-----TATCCTAGGTTTTTTGTTATTCCAGA--TGTCTTAGTCAGGGTCTCTATTCCTGCACAAACATCATGACCA
+                               *****--|13457469
+
+Details of the LTR alignment(3'-end):
+                               13459357|*****-----
+ACCCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACACCAGA-----TG--AATTTG-CAGATTGCCCTTTCTAATTC
+|||||||||||||||||||||||||||||||||||||||*   ||     ||  || ||| || |    |   ||  | | 
+ACCCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACAATTGACCCCTTGTCAACTTGACACACAAACACATC--ACTA
+                               13457864|
+
+Details of PPT(-):
+TTCTTATTCATCCCC
+|13457923
+
+[35] 17 Len:25593420
+Location : 14443323 - 14449720 Len: 6398 Strand:+
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 14443323 - 14443815 Len: 493
+3'-LTR   : 14449228 - 14449720 Len: 493
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 14443318 - 14443322 , 14449721 - 14449725 [GTGCT]
+Sharpness: 0.486,0.543
+Strand + :
+PPT   : [11/15] 14449134 - 14449148
+
+Details of exact match pairs:
+14449228-14449720[493]
+14443323-14443815[493]
+
+Details of the LTR alignment(5'-end):
+                                       |14449228
+ACTCTAGAAC-C---ACTCCTGG--TACCAACT--T-C-TGTATTAGTCAGGGTTCTCTAGAGTCACAGAACTTATGGATA
+  | | |||| |   | | ||||   | ||  |  | | *|||||||||||||||||||||||||||||||||||||||||
+GATTT-GAACTCAGGATTTCTGGAAGAGCAGTTGGTGCTTGTATTAGTCAGGGTTCTCTAGAGTCACAGAACTTATGGATA
+                                  *****|14443323
+
+Details of the LTR alignment(3'-end):
+                               14449720|*****
+CCAAATATTGTCAAGTTGACAACCAGGAATAGCCACTACAGTGCTCTTTACATTGAGCCATCTCTCCAGTCCCCAAGTTTC
+|||||||||||||||||||||||||||||||||||||||* | | |    | |||   || ||   ||     ||| |   
+CCAAATATTGTCAAGTTGACAACCAGGAATAGCCACTACAATCCACC---CCTTG--TCAACTTGACA-----CAAAT---
+                               14443815|
+
+Details of PPT(+):
+GAAAGTGCTGGTGGA
+|14449134
+
+[36] 17 Len:25593420
+Location : 14640013 - 14646027 Len: 6015 Strand:+
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 14640013 - 14640381 Len: 369
+3'-LTR   : 14645659 - 14646027 Len: 369
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 14640007 - 14640012 , 14646028 - 14646033 [CTTTAC]
+Sharpness: 0.543,0.543
+Strand + :
+PPT   : [14/15] 14645644 - 14645658
+
+Details of exact match pairs:
+14645659-14646027[369]
+14640013-14640381[369]
+
+Details of the LTR alignment(5'-end):
+                                      |14645659
+TGCTCTTA-TTAAAAGGATAGGGGGAGA----------TGTTGGGAGCCGCGCCCACATTCGCCGTTACAAGATGGCGCTG
+||     | | |||  || | |  ||||          ||*||||||||||||||||||||||||||||||||||||||||
+TGGAGGGAGTCAAATTGACATGCTGAGACTTGCTTTACTGTTGGGAGCCGCGCCCACATTCGCCGTTACAAGATGGCGCTG
+                                ******|14640013
+
+Details of the LTR alignment(3'-end):
+                                14646027|***--***
+GGTGTTCTTCCTGGCCGGTCGTGAGAACGCGTCTAATAACACTT--TACCAAGTCTTTGGA-GTCATAGGACTTCTCTAAG
+|||||||||||||||||||||||||||||||||||||||*| ||  | || | |    ||| |  | |  |       || 
+GGTGTTCTTCCTGGCCGGTCGTGAGAACGCGTCTAATAACAATTGGTGCCGAATTCCGGGACGAGAAAAAA-------AAC
+                                14640381|
+
+Details of PPT(+):
+AAGGATAGGGGGAGA
+|14645644
+
+[37] 17 Len:25593420
+Location : 14671603 - 14676410 Len: 4808 Strand:+
+Score    : 6 [LTR region similarity:0.957]
+Status   : 11111010000
+5'-LTR   : 14671603 - 14672113 Len: 511
+3'-LTR   : 14675901 - 14676410 Len: 510
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 14671599 - 14671602 , 14676411 - 14676414 [CTAA]
+Sharpness: 0.429,0.457
+Strand + :
+PPT   : [15/15] 14675886 - 14675900
+
+Details of exact match pairs:
+14675899-14675923[25] (1) 14675925-14676031[107] (1) 14676033-14676179[147] (1) 14676181-14676205[25] (10) 14676216-14676258[43] (44) 14676303-14676341[39] (46) 14676388-14676410[23]
+14671601-14671625[25] (1) 14671627-14671733[107] (1) 14671735-14671881[147] (1) 14671883-14671907[25] (10) 14671918-14671960[43] (44) 14672005-14672043[39] (47) 14672091-14672113[23]
+
+Details of the LTR alignment(5'-end):
+                                       |14675901
+GATTAGAACT--ACTTAGTAGAA-GAAGA----GGGGAATGAAAGGAAATAAAACTTGAGACTTGTGATTCATGTAATTTA
+|||  || |   || |||| ||| ||| |     |  ||*|||||||||||||||||||||| ||||||||||||||||||
+GATGTGAGCCGAAC-TAGT-GAAGGAACACCATTGCTAATGAAAGGAAATAAAACTTGAGACATGTGATTCATGTAATTTA
+                                   ****|14671603
+
+Details of the LTR alignment(3'-end):
+                                14676410|**---*------*
+AACAGA-AATTGAGTGGGGGTTTCCCCACTAGGTTCTTTCACT---A------ACAGAG------G-AACACTAACAAATC
+||  || |||||||||| |||||||||||||||||||||*| |   |      || |||      |  ||||  |  || |
+AATCGAGAATTGAGTGGAGGTTTCCCCACTAGGTTCTTTCATTTGGAGGTCCCACCGAGATCTGCGTGACACCCAGGAACC
+                                14672113|
+
+Details of PPT(+):
+AGAAGAAGAGGGGAA
+|14675886
+
+[38] 17 Len:25593420
+Location : 15120873 - 15126553 Len: 5681 Strand:-
+Score    : 6 [LTR region similarity:0.968]
+Status   : 11111010000
+5'-LTR   : 15120873 - 15121212 Len: 340
+3'-LTR   : 15126214 - 15126553 Len: 340
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 15120867 - 15120872 , 15126554 - 15126559 [GTGTGC]
+Sharpness: 0.557,0.429
+Strand - :
+PPT   : [13/15] 15121213 - 15121227
+
+Details of exact match pairs:
+15126214-15126236[23] (1) 15126238-15126315[78] (1) 15126317-15126350[34] (1) 15126352-15126389[38] (10) 15126400-15126430[31] (17) 15126448-15126492[45] (7) 15126500-15126537[38]
+15120873-15120895[23] (1) 15120897-15120974[78] (1) 15120976-15121009[34] (1) 15121011-15121048[38] (10) 15121059-15121089[31] (17) 15121107-15121151[45] (7) 15121159-15121196[38]
+
+Details of the LTR alignment(5'-end):
+                                       |15126214
+CCTTTGCCGTTTCTCAG--TCCCGAGTTGGTTAGCCAAATGTTGTGTCTGGCCAGTAGATCAAAACATGGGTTCTAGTCTG
+  | ||   |||   ||  |    | ||   |||     *|||||||||||||||||||||| ||||||||||||||||||
+--TATG--ATTTTATAGAAT---AAATTAAGTAGTGTGCTGTTGTGTCTGGCCAGTAGATCACAACATGGGTTCTAGTCTG
+                                 ******|15120873
+
+Details of the LTR alignment(3'-end):
+                                15126553|******
+CCTGAGCAAGCAGGTTTCAGGCTGGAGGAGGGGAGACTACAGTGTGCCTCC----TGTTTATATTTTGTGCAATAATTTGA
+||||||||||||||||||||||||| ||||||||||||*|| | | |||||    |||| |||        |||||    |
+CCTGAGCAAGCAGGTTTCAGGCTGGGGGAGGGGAGACTACA-TCT-CCTCCCTGTTGTTAATA------AAAATAAAAAAA
+                                15121212|
+
+Details of PPT(-):
+TCTCCTCCCTGTTGT
+|15121213
+
+[39] 17 Len:25593420
+Location : 15548196 - 15556851 Len: 8656 Strand:-
+Score    : 6 [LTR region similarity:0.996]
+Status   : 11111010000
+5'-LTR   : 15548196 - 15548728 Len: 533
+3'-LTR   : 15556319 - 15556851 Len: 533
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 15548192 - 15548195 , 15556852 - 15556855 [ACCC]
+Sharpness: 0.514,0.5
+Strand - :
+PPT   : [14/15] 15548729 - 15548743
+
+Details of exact match pairs:
+15556319-15556546[228] (1) 15556548-15556663[116] (1) 15556665-15556851[187]
+15548196-15548423[228] (1) 15548425-15548540[116] (1) 15548542-15548728[187]
+
+Details of the LTR alignment(5'-end):
+                                       |15556319
+CTCTGGGTGGTCGCGCTGATCCCGGACCGAGCCCCCAAATGAAAGACCCCCGCAGGGAGACCCTCACTCAAGCCTCGGGAC
+||     |||| ||   ||    |||  | | |||    |*||||||||||||||||||||||||||||||||||||||||
+CT-----TGGTTGCA--GA--GGGGA-AGTGACCC----TGAAAGACCCCCGCAGGGAGACCCTCACTCAAGCCTCGGGAC
+                               ****----|15548196
+
+Details of the LTR alignment(3'-end):
+                                15556851|*-***
+GCTCTGGGGTGAGGAAGAGTTCAGTAATTTTTTATTCTTCAA-CCCCAAGCCC---AG-AACTGGTGCTG--CTTA-AG--
+|||||||||||||||||||||||||||||||||||||||*|  |||||  ||    || || | |  ||   |||| ||  
+GCTCTGGGGTGAGGAAGAGTTCAGTAATTTTTTATTCTTCATTCCCCACTCCTTTTAGGAAATAGCTCTAATCTTAGAGCG
+                                15548728|
+
+Details of PPT(-):
+TTCCCCACTCCTTTT
+|15548729
+
+[40] 17 Len:25593420
+Location : 15722905 - 15738856 Len: 15952 Strand:+
+Score    : 6 [LTR region similarity:0.896]
+Status   : 11111010000
+5'-LTR   : 15722905 - 15723270 Len: 366
+3'-LTR   : 15738491 - 15738856 Len: 366
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 15722899 - 15722904 , 15738857 - 15738862 [TTATTG]
+Sharpness: 0.429,0.414
+Strand + :
+PPT   : [13/15] 15738476 - 15738490
+
+Details of exact match pairs:
+15738579-15738610[32] (26) 15738637-15738665[29] (119) 15738785-15738824[40]
+15722993-15723024[32] (26) 15723051-15723079[29] (119) 15723199-15723238[40]
+
+Details of the LTR alignment(5'-end):
+                            |15738491
+CTTTTTTATATTAACAACAGGAAGGAGATGTAACCTCCCTCCCTCAGTCTGAAACCTGATTGCTCATGTTTCACTGTTAGC
+ ||| || ||||       |        ||||||||||||||||||| ||*||||||||||||||| |||||||||| |||
+GTTTCTT-TATT-------G--------TGTAACCTCCCTCCCTCAGCCTGAAACCTGATTGCTCAGGTTTCACTGTCAGC
+      *-****-------*--------|15722905
+
+Details of the LTR alignment(3'-end):
+                                     15738856|******
+TTCAGCCATACCCCGTTCCTCGCGAGCTGCTGGATGGCACGCAGCATTATTGTCCCT-ATTTTCAT--ACTCATTTAAG--
+|||||||||||||| ||||| | |||| |||||*  ||| ||| || | | || ||  |    ||   || |  | |||  
+TTCAGCCATACCCCATTCCTAGTGAGCCGCTGGACTGCATGCAACAGTTTGGTGCCAGAC---CAGGGAC-C--TGAAGAA
+                                     15723270|
+
+Details of PPT(+):
+ACAACAGGAAGGAGA
+|15738476
+
+[41] 17 Len:25593420
+Location : 15725435 - 15733792 Len: 8358 Strand:+
+Score    : 6 [LTR region similarity:0.959]
+Status   : 11111010000
+5'-LTR   : 15725435 - 15725778 Len: 344
+3'-LTR   : 15733448 - 15733792 Len: 345
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 15725429 - 15725434 , 15733793 - 15733798 [CCCCTC]
+Sharpness: 0.557,0.457
+Strand + :
+PPT   : [15/15] 15733433 - 15733447
+
+Details of exact match pairs:
+15733459-15733485[27] (2) 15733488-15733512[25] (1) 15733514-15733536[23] (1) 15733538-15733557[20] (1) 15733559-15733611[53] (1) 15733613-15733687[75] (1) 15733689-15733709[21] (6) 15733716-15733737[22]
+15725446-15725472[27] (2) 15725475-15725499[25] (1) 15725501-15725523[23] (1) 15725525-15725544[20] (1) 15725546-15725598[53] (1) 15725600-15725674[75] (1) 15725676-15725696[21] (5) 15725702-15725723[22]
+
+Details of the LTR alignment(5'-end):
+                                       |15733448
+A-GAAAAGGGGGAGA------------------------TGTGAGGAGCCGCCCTTGCAATCGCCATTACAAGATGGCTCT
+|  |  |||| || |                        *||||||||| |||||||||||||||||||||||||||  ||
+ATTATGAGGGAGAAATTAAAATCATAGCTCCTTCCCCTCTGTGAGGAGCTGCCCTTGCAATCGCCATTACAAGATGGTGCT
+                                 ******|15725435
+
+Details of the LTR alignment(3'-end):
+                               15733792|******
+GTGTGTCCTCGCCGACGAGACTCCTCATCACACAGGGACACCCCTCATGGTGTTATAACT--GTTCCCACTA-ATCA--GA
+|||||||||||||| ||||||||||  ||||||||||||*    || ||||| |  |||   |   | || | |||   | 
+GTGTGTCCTCGCCGGCGAGACTCCTTCTCACACAGGGACA----TC-TGGTGCTGAAACCCGGGAACTACAACATCTCCG-
+                               15725778|
+
+Details of PPT(+):
+AAGAAAAGGGGGAGA
+|15733433
+
+[42] 17 Len:25593420
+Location : 16064779 - 16069776 Len: 4998 Strand:+
+Score    : 6 [LTR region similarity:0.973]
+Status   : 11111010000
+5'-LTR   : 16064779 - 16065227 Len: 449
+3'-LTR   : 16069333 - 16069776 Len: 444
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 16064775 - 16064778 , 16069777 - 16069780 [CTCC]
+Sharpness: 0.5,0.443
+Strand + :
+PPT   : [14/15] 16069318 - 16069332
+
+Details of exact match pairs:
+16069333-16069542[210] (1) 16069544-16069600[57] (8) 16069609-16069661[53] (1) 16069663-16069703[41] (1) 16069705-16069728[24] (11) 16069740-16069769[30]
+16064779-16064988[210] (1) 16064990-16065046[57] (8) 16065055-16065107[53] (5) 16065113-16065153[41] (1) 16065155-16065178[24] (11) 16065190-16065219[30]
+
+Details of the LTR alignment(5'-end):
+                                       |16069333
+--GAATTACTTACAA-GAAGAAGTGGGGA---------ATGAAGAATAAAAAATTACTGGCCTCTTGTGAGAACATGAACT
+  || |  | |  ||  ||||  ||| ||          *|||||||||||||||||||||||||||||||||||||||||
+GGGAGT--CCTGGAACCAAGA--TGGCGACCGCTGCTCCTGAAGAATAAAAAATTACTGGCCTCTTGTGAGAACATGAACT
+                                   ****|16064779
+
+Details of the LTR alignment(3'-end):
+                                16069776|*--------***--
+CCCGAGGCTTGTGTGAGGGTCTCCCTTCGGGGG-TCTTACA--------CTC--CTGAGGCTGAGGCCGCCTCCCAAGCCA
+|| |||||||||||||||||||||||||||||| |||||*|        |||  | | |   || ||  || ||||||  |
+CCTGAGGCTTGTGTGAGGGTCTCCCTTCGGGGGGTCTTACATTTGGGGGCTCGTCCGGGATCGACGCTACCACCCAAG--A
+                                16065227|
+
+Details of PPT(+):
+AGAAGAAGTGGGGAA
+|16069318
+
+[43] 17 Len:25593420
+Location : 16098730 - 16106138 Len: 7409 Strand:-
+Score    : 6 [LTR region similarity:0.997]
+Status   : 11111010000
+5'-LTR   : 16098730 - 16099049 Len: 320
+3'-LTR   : 16105819 - 16106138 Len: 320
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 16098724 - 16098729 , 16106139 - 16106144 [ATTATT]
+Sharpness: 0.486,0.543
+Strand - :
+PPT   : [14/15] 16099050 - 16099064
+
+Details of exact match pairs:
+16105819-16105895[77] (1) 16105897-16106138[242]
+16098730-16098806[77] (1) 16098808-16099049[242]
+
+Details of the LTR alignment(5'-end):
+                                      |16105819
+CATTCTTCAGGTCC-CT---GTTCGGGC-GCCA--AAATGTTGCGGCCGCCAGCAGCTCGCAACATGAACGGTTCGACTGA
+ | | || |  ||| ||    ||  | | | ||  |  ||*||||||||||||||||||||||||||||||||||||||||
+TAAT-TTTAAATCCTCTCAAATT--GACAGTCATTATTTGTTGCGGCCGCCAGCAGCTCGCAACATGAACGGTTCGACTGA
+                                ******|16098730
+
+Details of the LTR alignment(3'-end):
+                                16106138|******
+CCTGAGCAAGCAGGTTTCAGGCTGGGGGAGGGGAGACTACAATTATTCACAACAATGACCGAAG-TTGACATGGTCAACAC
+||||||||||||||||||||||||||||||||||||||*|| ||  || |    || | | ||  || | |     || | 
+CCTGAGCAAGCAGGTTTCAGGCTGGGGGAGGGGAGACTACATTTCCTCCCTTTTATTAACAAAACTTAAAAA----AAAA-
+                                16099049|
+
+Details of PPT(-):
+TTTCCTCCCTTTTAT
+|16099050
+
+[44] 17 Len:25593420
+Location : 16161014 - 16165693 Len: 4680 Strand:+
+Score    : 6 [LTR region similarity:0.961]
+Status   : 11111010000
+5'-LTR   : 16161014 - 16161350 Len: 337
+3'-LTR   : 16165369 - 16165693 Len: 325
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 16161008 - 16161013 , 16165694 - 16165699 [GTAGAT]
+Sharpness: 0.571,0.514
+Strand + :
+PPT   : [15/15] 16165354 - 16165368
+
+Details of exact match pairs:
+16165383-16165693[311]
+16161040-16161350[311]
+
+Details of the LTR alignment(5'-end):
+                          |16165369
+AAAAGGA--------AAGGGGGAGA-TGTTGGG------------ATTCGCTGTTACAAGATGGCGCTGACAGCTGTGTTC
+|||  ||        |    | ||| |||||||            |||||| *||||||||||||||||||||||||||||
+AAA--GACCTCCTCTA----GTAGATTGTTGGGAGCCGCGCCCACATTCGCCGTTACAAGATGGCGCTGACAGCTGTGTTC
+                    ******|16161014
+
+Details of the LTR alignment(3'-end):
+                               16165693|******
+GCGTCTTTCCTGGCCGGTCGTGAGAACGCGTCTAATAACAGTAGATA--GACAT----GGATCCCAGGTAA-----GGGA-
+|||||||||||||||||||||||||||||||||||||||* | | |   || ||    |||  | ||  ||     |||| 
+GCGTCTTTCCTGGCCGGTCGTGAGAACGCGTCTAATAACAATTGGTGCCGA-ATTCCGGGA--CGAGAAAAAACTCGGGAC
+                               16161350|
+
+Details of PPT(+):
+AAGGAAAGGGGGAGA
+|16165354
+
+[45] 17 Len:25593420
+Location : 16489562 - 16491941 Len: 2380 Strand:+
+Score    : 6 [LTR region similarity:0.968]
+Status   : 11111010000
+5'-LTR   : 16489562 - 16489909 Len: 348
+3'-LTR   : 16491594 - 16491941 Len: 348
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 16489556 - 16489561 , 16491942 - 16491947 [GCAAGG]
+Sharpness: 0.457,0.471
+Strand + :
+PPT   : [15/15] 16491578 - 16491592
+
+Details of exact match pairs:
+16491628-16491699[72] (3) 16491703-16491767[65] (1) 16491769-16491788[20] (18) 16491807-16491930[124]
+16489596-16489667[72] (3) 16489671-16489735[65] (1) 16489737-16489756[20] (18) 16489775-16489898[124]
+
+Details of the LTR alignment(5'-end):
+                                    |16491594
+T-CT-CTCTG-CCAAAAAAGAAAAAAGG--GGGAATTGTGAGGAGCGGGTATGGCGGCAGTCCCAAAGGTGCCAGGGACTG
+| || ||||| ||  | | |   | |||  |  |  |||| |*||||||| |||||||||||||||||| |||||||||||
+TGCTGCTCTGTCCTCACAGG--CAGAGGCTGCAAGGTGTGGGGAGCGGGTGTGGCGGCAGTCCCAAAGGCGCCAGGGACTG
+                              ******|16489562
+
+Details of the LTR alignment(3'-end):
+                                16491941|******
+GGTGGTCGCGTCGTTCTTGCTGGTCGAGAGCGGGCGCGACAGCAAGGGAGTTTCATA-----AAC-G-CTTCCACGTAATG
+|||||||||||||||||||||||||||||| ||| |||*||  |  || |   | ||     ||| | || || |  |  |
+GGTGGTCGCGTCGTTCTTGCTGGTCGAGAGAGGGTGCGACA--ATTGGTGGCCCGTACGGGGAACTGACTCCCCC--ACCG
+                                16489909|
+
+Details of PPT(+):
+AGAAAAAAGGGGGAA
+|16491578
+
+[46] 17 Len:25593420
+Location : 16996217 - 16998103 Len: 1887 Strand:-
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 16996217 - 16996611 Len: 395
+3'-LTR   : 16997709 - 16998103 Len: 395
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 16996212 - 16996216 , 16998104 - 16998108 [GTGTT]
+Sharpness: 0.529,0.514
+Strand - :
+PPT   : [13/15] 16996670 - 16996684
+
+Details of exact match pairs:
+16997707-16998103[397]
+16996215-16996611[397]
+
+Details of the LTR alignment(5'-end):
+                                        |16997709
+-----TGTCACAGGAAT--ACCCCACTCCTGGTACCAATTTGTCTTAGTCAGGGTTTCTATTCCTGCACAAACATCATGAC
+     | | |||  |||  |||  | |  | ||     |*|||||||||||||||||||||||||||||||||||||||||
+ATAAATATAACAAAAATTAACCTTA-T--TAGT----GTTTGTCTTAGTCAGGGTTTCTATTCCTGCACAAACATCATGAC
+                               **----***|16996217
+
+Details of the LTR alignment(3'-end):
+                               16998103|*****
+ACTCCAGCTGTGTCAAGTTGACACAAAACTAACCAGTACAGTGTTCATTCAAAAACTCAACTTAGTTTCATTTTTCTACTT
+|||||||||||||||||||||||||||||||||||||||*      |||     || |  ||| ||  ||       ||||
+ACTCCAGCTGTGTCAAGTTGACACAAAACTAACCAGTACA------ATT----GACCC--CTT-GT--CA-------ACTT
+                               16996611|
+
+Details of PPT(-):
+TTCTTATTCATCCCC
+|16996670
+
+[47] 17 Len:25593420
+Location : 17869369 - 17875407 Len: 6039 Strand:+
+Score    : 6 [LTR region similarity:0.99]
+Status   : 11111010000
+5'-LTR   : 17869369 - 17869865 Len: 497
+3'-LTR   : 17874909 - 17875407 Len: 499
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 17869364 - 17869368 , 17875408 - 17875412 [GCTCC]
+Sharpness: 0.471,0.5
+Strand + :
+PPT   : [11/15] 17874894 - 17874908
+
+Details of exact match pairs:
+17874909-17874962[54] (1) 17874964-17875074[111] (0) 17875075-17875138[64] (1) 17875140-17875164[25] (1) 17875166-17875408[243]
+17869369-17869422[54] (1) 17869424-17869534[111] (-2) 17869533-17869596[64] (1) 17869598-17869622[25] (1) 17869624-17869866[243]
+
+Details of the LTR alignment(5'-end):
+                                      |17874909
+AGATATTATTTGTGTCAAGTTGACAAGG-GGTGGAT--TGTAGTGGCTATTCCTGGTTGTCAACTTGACAATATTTGGAAT
+   | || ||| | ||  | ||| | ||   | | |  |||*|||||||||||||||||||||||||||||||||||||||
+---TTTTTTTTTTTTCCTGCTGA-ATGGTTTTAGCTCCTGTAGTGGCTATTCCTGGTTGTCAACTTGACAATATTTGGAAT
+                                 *****|17869369
+
+Details of the LTR alignment(3'-end):
+                               17875407|*****
+TCCATAAGTTCTGTGACTCTAGAGAACCCTGACTAATACAGCTCCTTTGTCCTAG-A------TCAAGTAACAAAAGGA-A
+||||||||||||||||||||||||||||||||||||||||*    || || | || |      |  ||||||| ||| | |
+TCCATAAGTTCTGTGACTCTAGAGAACCCTGACTAATACAGAAG-TTGGTACCAGGAGTGGGGTAGAGTAACAGAAGTACA
+                               17869865|
+
+Details of PPT(+):
+TGACAAGGGGTGGAT
+|17874894
+
+[48] 17 Len:25593420
+Location : 18145696 - 18151209 Len: 5514 Strand:-
+Score    : 6 [LTR region similarity:0.994]
+Status   : 11111010000
+5'-LTR   : 18145696 - 18146017 Len: 322
+3'-LTR   : 18150888 - 18151209 Len: 322
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 18145690 - 18145695 , 18151210 - 18151215 [GTCAGG]
+Sharpness: 0.543,0.514
+Strand - :
+PPT   : [14/15] 18146018 - 18146032
+
+Details of exact match pairs:
+18150888-18151048[161] (1) 18151050-18151191[142]
+18145696-18145856[161] (1) 18145858-18145999[142]
+
+Details of the LTR alignment(5'-end):
+                                       |18150888
+--GT-TT--CTCAGTCCCGC--GTTGG---TTCGCCAATTGTTGTGTCCGGCCAGCAGACCACAACCTGGGTTCTAGCCTG
+  |  ||  |  || | | |  |   |   |  | ||  *|||||||||||||||||||||||||||||||||||||||||
+AGGCATTGGCATAGACTCACAAGAAAGAGCTATGTCAGGTGTTGTGTCCGGCCAGCAGACCACAACCTGGGTTCTAGCCTG
+                                 ******|18145696
+
+Details of the LTR alignment(3'-end):
+                               18151209|**--****
+CTGAGCAAGCAGGTTTCAGGCTAGGGGAGGGGAGACTACAGT--CAGGGTCC----TATCAGCAAACTCTTTCTGGCATAT
+|||||||||||||||||||||| ||||||||||||||||* |  |    |||    ||  | ||||  |||      | | 
+CTGAGCAAGCAGGTTTCAGGCTGGGGGAGGGGAGACTACATTTCC----TCCCTTTTACTAACAAAA-CTTA--AAAAAAG
+                               18146017|
+
+Details of PPT(-):
+TTTCCTCCCTTTTAC
+|18146018
+
+[49] 17 Len:25593420
+Location : 18151547 - 18157029 Len: 5483 Strand:+
+Score    : 6 [LTR region similarity:0.99]
+Status   : 11111010000
+5'-LTR   : 18151547 - 18152028 Len: 482
+3'-LTR   : 18156548 - 18157029 Len: 482
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 18151543 - 18151546 , 18157030 - 18157033 [GTAT]
+Sharpness: 0.486,0.571
+Strand + :
+PPT   : [14/15] 18156533 - 18156547
+
+Details of exact match pairs:
+18156548-18156735[188] (1) 18156737-18156848[112] (15) 18156864-18156982[119] (1) 18156984-18157029[46]
+18151547-18151734[188] (1) 18151736-18151847[112] (15) 18151863-18151981[119] (1) 18151983-18152028[46]
+
+Details of the LTR alignment(5'-end):
+                                      |18156548
+-TAAGATTAGAACTA-GTAACT-AGAAGAAGTGGGGAATGAAAGATCCTGGCAGAATGTAAAAGGACACAGAAGCCCTGAA
+ |  |||| |   ||  | ||| ||  ||  | || | ||*||||||||||||||||||||||||||||||||||||||||
+TTCTGATT-GGGTTACCTCACTCAG--GA--T-GGTATTGAAAGATCCTGGCAGAATGTAAAAGGACACAGAAGCCCTGAA
+                                  ****|18151547
+
+Details of the LTR alignment(3'-end):
+                                18157029|****
+GTCCTGAGGCCTGAGAGAGGGGCTCCTCTCGGAGTCTTTCAGTATCCTCCAGATGCATCCATTTGCCTAAGTATTT-CATG
+|||||||||||||||||||||||||||||||||||||||*| |    |   |  || ||     | ||  | |||  ||||
+GTCCTGAGGCCTGAGAGAGGGGCTCCTCTCGGAGTCTTTCATT----T--GGGGGC-TC-----GTCTGGG-ATTGGCATG
+                                18152028|
+
+Details of PPT(+):
+AGAAGAAGTGGGGAA
+|18156533
+
+[50] 17 Len:25593420
+Location : 19221672 - 19224752 Len: 3081 Strand:+
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 19221672 - 19222090 Len: 419
+3'-LTR   : 19224334 - 19224752 Len: 419
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 19221666 - 19221671 , 19224753 - 19224758 [TTGTAT]
+Sharpness: 0.586,0.571
+Strand + :
+PPT   : [15/15] 19224318 - 19224332
+
+Details of exact match pairs:
+19224332-19224752[421]
+19221670-19222090[421]
+
+Details of the LTR alignment(5'-end):
+                                        |19224334
+AC-ATTCT----CTCTGCCAAAAAAGAAAAAAGGGGGAATTGTGGGGAGCGGGTGTGGCGGCAGTCCCAAAGGCGCCAGAG
+ | ||| |     ||||      |||          | *||||||||||||||||||||||||||||||||||||||||||
+TCTATT-TGGAGTTCTGT-----AAG----CTTCTTGTATTGTGGGGAGCGGGTGTGGCGGCAGTCCCAAAGGCGCCAGAG
+                                  ******|19221672
+
+Details of the LTR alignment(3'-end):
+                               19224752|*-*****
+AGCAGCGTCGTTCTTCCTGGCCAGTTGAGCGCGCGCAACAT-TGTATGTTCA----TGGG--------CATCTCTTTCTTT
+|||||||||||||||||||||||||||||||||||||||*  ||  || | |     |||        |||||   ||   
+AGCAGCGTCGTTCTTCCTGGCCAGTTGAGCGCGCGCAACAAGTG-GTGCTGAAACCCGGGAAAAGAAACATCT---TC---
+                               19222090|
+
+Details of PPT(+):
+AGAAAAAAGGGGGAA
+|19224318
+
+[51] 17 Len:25593420
+Location : 19275924 - 19277793 Len: 1870 Strand:-
+Score    : 6 [LTR region similarity:0.99]
+Status   : 11111010000
+5'-LTR   : 19275924 - 19276311 Len: 388
+3'-LTR   : 19277406 - 19277793 Len: 388
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 19275919 - 19275923 , 19277794 - 19277798 [ACCTG]
+Sharpness: 0.514,0.5
+Strand - :
+PPT   : [13/15] 19276370 - 19276384
+
+Details of exact match pairs:
+19277406-19277503[98] (7) 19277511-19277582[72] (8) 19277591-19277794[204]
+19275924-19276021[98] (7) 19276029-19276100[72] (8) 19276109-19276312[204]
+
+Details of the LTR alignment(5'-end):
+                                       |19277406
+GT--TGTCACAGGAATACCCCACTCTGCTGGTACCAATTTGTCTTAGTCAGGGTCTCTATTCCTGCACAAACATCATGACC
+||  ||| ||   ||| | ||| |       ||||  | |*||||||||||||||||||||||||||||||||||||||||
+GTCATGTAAC---AAT-CTCCATT-------TACC--TGTGTCTTAGTCAGGGTCTCTATTCCTGCACAAACATCATGACC
+                                ***--**|19275924
+
+Details of the LTR alignment(3'-end):
+                                19277793|*****
+AACCCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACAACCTGACTTCTT-----CTTTACA-ACAAAAATAGGGGTA
+|||||||||||||||||||||||||||||||||||||||*||  ||||  |||     ||| ||| ||||| | |    ||
+AACCCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACAAT-TGACCCCTTGTCAACTTGACACACAAACACACCACTA
+                                19276311|
+
+Details of PPT(-):
+TTCTTATTCATCCCC
+|19276370
+
+[52] 17 Len:25593420
+Location : 19396350 - 19403790 Len: 7441 Strand:+
+Score    : 6 [LTR region similarity:0.963]
+Status   : 11110011000
+5'-LTR   : 19396350 - 19396675 Len: 326
+3'-LTR   : 19403465 - 19403790 Len: 326
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : NOT FOUND
+Sharpness: 0.486,0.443
+Strand + :
+PPT   : [15/15] 19403450 - 19403464
+Domain: 19399843 - 19400376 [possible ORF:19399705-19401870, (RT)]
+
+Details of exact match pairs:
+19403481-19403513[33] (28) 19403542-19403565[24] (1) 19403567-19403630[64] (14) 19403645-19403745[101] (11) 19403757-19403782[26]
+19396366-19396398[33] (28) 19396427-19396450[24] (1) 19396452-19396515[64] (14) 19396530-19396630[101] (11) 19396642-19396667[26]
+
+Details of the LTR alignment(5'-end):
+                                       |19403465
+GTTGCT-T-----CTAAAATAAAAG-AAAAGGGGGA-GATGTGAGGAGCCGCCCTCACAGTCGCCATTACAAGATGGCGCT
+ || || |     || || | || | | |      |   |*||||||||||||| ||||||||||||||||||||||||||
+CTT-CTATCCTCCCTCAAGTCAATGCATATTTTCTATCTTGTGAGGAGCCGCCCACACAGTCGCCATTACAAGATGGCGCT
+                                       |19396350
+
+Details of the LTR alignment(3'-end):
+                               19403790|
+GCCTGCGTGCGTTTTGCTGGCGAGACGGTAGCGTGGGTCACCATCTCATATTTCT--AATCATGATATCCTTAAACCAATC
+||||| |||||||||||||||||||||||||| ||||||*   |||  |  | |   ||||  |  |   ||||  || ||
+GCCTGAGTGCGTTTTGCTGGCGAGACGGTAGCTTGGGTCA---TCTGGT--TGCCGGAATCCCGGGAA--TTAA--CA-TC
+                               19396675|
+
+Details of PPT(+):
+AAGAAAAGGGGGAGA
+|19403450
+
+[53] 17 Len:25593420
+Location : 19653457 - 19660556 Len: 7100 Strand:+
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 19653457 - 19653793 Len: 337
+3'-LTR   : 19660220 - 19660556 Len: 337
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 19653451 - 19653456 , 19660557 - 19660562 [CTTTCC]
+Sharpness: 0.514,0.543
+Strand + :
+PPT   : [15/15] 19660205 - 19660219
+
+Details of exact match pairs:
+19660220-19660556[337]
+19653457-19653793[337]
+
+Details of the LTR alignment(5'-end):
+                                       |19660220
+GTG-GCCTATTTGCTCTTATTA-AAAGGAAAGGGGGAGATGTTGGGAGCCGCGCCCACATTCGCCGTTACAAGATGGCGCT
+|||  ||| |||| | || | |  ||  ||         *|||||||||||||||||||||||||||||||||||||||||
+GTGTTCCTGTTTG-T-TTGTCACTAACCAACTCCTTTCCTGTTGGGAGCCGCGCCCACATTCGCCGTTACAAGATGGCGCT
+                                 ******|19653457
+
+Details of the LTR alignment(3'-end):
+                                19660556|***--***
+TGCGTCTTTCCTGGCCGGTCGTGAGAACGCGTCTAATAACACTT--TCCCACCTGAGTACCAGGACCCTGATTTCTCCAGA
+||||||||||||||||||||||||||||||||||||||*|| ||  | ||    || | || ||||   ||       | |
+TGCGTCTTTCCTGGCCGGTCGTGAGAACGCGTCTAATAACAATTGGTGCC----GAATTCCGGGAC---GAG------AAA
+                                19653793|
+
+Details of PPT(+):
+AAGGAAAGGGGGAGA
+|19660205
+
+[54] 17 Len:25593420
+Location : 19668070 - 19669952 Len: 1883 Strand:-
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 19668070 - 19668463 Len: 394
+3'-LTR   : 19669559 - 19669952 Len: 394
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 19668065 - 19668069 , 19669953 - 19669957 [TGGGG]
+Sharpness: 0.486,0.543
+Strand - :
+PPT   : [12/15] 19668522 - 19668536
+
+Details of exact match pairs:
+19669559-19669952[394]
+19668070-19668463[394]
+
+Details of the LTR alignment(5'-end):
+                                       |19669559
+GTTGTCACAGGAATACC--CCACTCCACTGGTACCAATTTGTCTTAGTCGGGGTTTCTATTCCTGCACAAACATCATGACC
+ || | ||  || | |   ||  |||| | |||      |*||||||||||||||||||||||||||||||||||||||||
+TTTAT-ACCTGAGT-CTTGCCTTTCCAGT-GTATTGGGGTGTCTTAGTCGGGGTTTCTATTCCTGCACAAACATCATGACC
+                                  *****|19668070
+
+Details of the LTR alignment(3'-end):
+                               19669952|--*****
+ACGCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACA--TGGGGTATCCAGGACTTGTTATGGTGGGAGA--ATTGGG
+|||||||||||||||||||||||||||||||||||||||*  ||    | ||    ||||| |   ||  | |  |     
+ACGCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACAATTG----ACCC----CTTGTCAACTTGACACACAAAAACA
+                               19668463|
+
+Details of PPT(-):
+ATCTTATTCATCCCC
+|19668522
+
+[55] 17 Len:25593420
+Location : 19751077 - 19757011 Len: 5935 Strand:+
+Score    : 6 [LTR region similarity:0.932]
+Status   : 11111010000
+5'-LTR   : 19751077 - 19751407 Len: 331
+3'-LTR   : 19756673 - 19757011 Len: 339
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 19751071 - 19751076 , 19757012 - 19757017 [GTGCTG]
+Sharpness: 0.514,0.443
+Strand + :
+PPT   : [15/15] 19756658 - 19756672
+
+Details of exact match pairs:
+19756673-19756692[20] (10) 19756703-19756765[63] (60) 19756826-19756845[20] (1) 19756847-19756948[102]
+19751077-19751096[20] (10) 19751107-19751169[63] (52) 19751222-19751241[20] (1) 19751243-19751344[102]
+
+Details of the LTR alignment(5'-end):
+                                      |19756673
+-T--TTT----TTTTGTTAAAAAAAGGGAGGAG----ATGTAGTCTCCCCTCCCCCAGTCTGAAACCTGCTTGCTCAGGGG
+ |  | |    | ||||   |  |  |||  ||     ||*||||||||||||||||| |||||||| |||||||||||||
+ATAGTGTCCACTGTTGTGGGACTACAGGACAAGTGCTGTGTAGTCTCCCCTCCCCCAGCCTGAAACCGGCTTGCTCAGGGG
+                                ******|19751077
+
+Details of the LTR alignment(3'-end):
+                               19757011|**--****
+GGCTAGAACCCATGTTGTGATTTGCCAGCCGGACACAACAGT--GCTGCATTA--CTGGGTACATCTTCAGC--TGCCA--
+|||||||| |||||||||||| |||  ||| ||||||||* |  || | |  |  | ||| ||    | ||   || ||  
+GGCTAGAATCCATGTTGTGATCTGCTGGCCAGACACAACATTTGGC-GAACCAAGC-GGG-AC----TGAGAAATGGCAAA
+                               19751407|
+
+Details of PPT(+):
+AAAAAAGGGAGGAGA
+|19756658
+
+[56] 17 Len:25593420
+Location : 20661245 - 20668333 Len: 7089 Strand:-
+Score    : 6 [LTR region similarity:0.997]
+Status   : 11111010000
+5'-LTR   : 20661245 - 20661581 Len: 337
+3'-LTR   : 20667997 - 20668333 Len: 337
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 20661239 - 20661244 , 20668334 - 20668339 [CTTGAG]
+Sharpness: 0.529,0.557
+Strand - :
+PPT   : [15/15] 20661582 - 20661596
+
+Details of exact match pairs:
+20667997-20668016[20] (1) 20668018-20668333[316]
+20661245-20661264[20] (1) 20661266-20661581[316]
+
+Details of the LTR alignment(5'-end):
+                                       |20667997
+TTT--------TTTCTCG-TCCCGGAATTCGGCACCAATTGTTATTAAACGCGTTCTCATGCCCGGCCAGGAAGAACACAA
+|||        || || | |||   | || | |    | *||||||||||||||||||| |||||||||||||||||||||
+TTTATGTGGAGTTCCTTGATCC---ACTTAGAC-TTGAGTGTTATTAAACGCGTTCTCACGCCCGGCCAGGAAGAACACAA
+                                *-*****|20661245
+
+Details of the LTR alignment(3'-end):
+                               20668333|-------******
+CGCCATCTTGTAACGGCGAATGTGGGCGCGGCTCCCAACA-------CTTGAGCTTTGTATAAGGACATAAAAATGGATCA
+|||||||||||||||||||||||||||||||||||||||*       |||   ||||  |||||  ||    ||| |  ||
+CGCCATCTTGTAACGGCGAATGTGGGCGCGGCTCCCAACATCTCCCCCTTTC-CTTTTAATAAGAGCA----AATAGGCCA
+                               20661581|
+
+Details of PPT(-):
+TCTCCCCCTTTCCTT
+|20661582
+
+[57] 17 Len:25593420
+Location : 20670353 - 20676770 Len: 6418 Strand:+
+Score    : 6 [LTR region similarity:0.992]
+Status   : 11111010000
+5'-LTR   : 20670353 - 20670839 Len: 487
+3'-LTR   : 20676284 - 20676770 Len: 487
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 20670348 - 20670352 , 20676771 - 20676775 [CCTTC]
+Sharpness: 0.557,0.5
+Strand + :
+PPT   : [11/15] 20676269 - 20676283
+
+Details of exact match pairs:
+20676284-20676355[72] (2) 20676358-20676645[288] (1) 20676647-20676682[36] (20) 20676703-20676770[68]
+20670353-20670424[72] (2) 20670427-20670714[288] (1) 20670716-20670751[36] (20) 20670772-20670839[68]
+
+Details of the LTR alignment(5'-end):
+                                       |20676284
+CATGAGATATTATTTGTGTAAGTTGACAAGGGGTGGAT-TGTAGTGGCTATTCCTGGTTGTCAACTTGACAATATTTGGAA
+||  | |  || | | ||||| |   |      |   | *|||||||||||||||||||||||||||||||||||||||||
+CA--AAACTTTGTCTCTGTAACTC--C------T---TCTGTAGTGGCTATTCCTGGTTGTCAACTTGACAATATTTGGAA
+                       *--*------*---**|20670353
+
+Details of the LTR alignment(3'-end):
+                                20676770|**--**----*
+ATCCATAAGTTCTGTGACTCTAGAGAACCCTGACTAATACACC--TT----CCATGGGTGTTTTGTTCCCAATT--CTAGG
+||||||||||||||||||||||||||||||||||||||*||    ||    ||| | |||    ||||   | |  | || 
+ATCCATAAGTTCTGTGACTCTAGAGAACCCTGACTAATACAGAAGTTGGTACCAGGAGTG----GTTCTAGAGTAAC-AG-
+                                20670839|
+
+Details of PPT(+):
+TGACAAGGGGTGGAT
+|20676269
+
+[58] 17 Len:25593420
+Location : 20687206 - 20694723 Len: 7518 Strand:+
+Score    : 6 [LTR region similarity:0.896]
+Status   : 11111010000
+5'-LTR   : 20687206 - 20687613 Len: 408
+3'-LTR   : 20694334 - 20694723 Len: 390
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 20687200 - 20687205 , 20694724 - 20694729 [CATAAT]
+Sharpness: 0.5,0.443
+Strand + :
+PPT   : [13/15] 20694319 - 20694333
+
+Details of exact match pairs:
+20694334-20694382[49] (53) 20694436-20694456[21] (6) 20694463-20694494[32] (0) 20694495-20694562[68] (13) 20694576-20694641[66] (1) 20694643-20694667[25] (1) 20694669-20694698[30]
+20687206-20687254[49] (53) 20687308-20687328[21] (6) 20687335-20687366[32] (18) 20687385-20687452[68] (13) 20687466-20687531[66] (5) 20687537-20687561[25] (1) 20687563-20687592[30]
+
+Details of the LTR alignment(5'-end):
+                                       |20694334
+AGTCCAATTTTGTTTAATATTATTTAAAGGGGGGA-AAATGTTACCTCCTTCCAGCCTAGCAAGGCTGGCTGTGACCATCT
+||   ||    |   || |||  ||    |    | || *|||||||||||||||||||||||||||||||||||||||||
+AG---AA--AAG---AA-ATTCCTT--CCGACACATAATTGTTACCTCCTTCCAGCCTAGCAAGGCTGGCTGTGACCATCT
+                                 ******|20687206
+
+Details of the LTR alignment(3'-end):
+                                20694723|******
+GTCATACCTGTTCCTCTCGAGCCACTGGTCGGCCGGCAACACATAATAATCAGAACAATAAATGCACTAAATAA----AGA
+|||||||||||||||| |||||   |||||||| | ||*||  |      | | |||   |   | || || ||    |||
+GTCATACCTGTTCCTCGCGAGC---TGGTCGGCTG-CAACAGTTTGGCGCCTGTACAGGGA---C-CTGAAGAATGGCAGA
+                                20687613|
+
+Details of PPT(+):
+TTAAAGGGGGGAAAA
+|20694319
+
+[59] 17 Len:25593420
+Location : 20851954 - 20858284 Len: 6331 Strand:+
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 20851954 - 20852393 Len: 440
+3'-LTR   : 20857845 - 20858284 Len: 440
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 20851949 - 20851953 , 20858285 - 20858289 [CTGCC]
+Sharpness: 0.514,0.457
+Strand + :
+PPT   : [11/15] 20857751 - 20857765
+
+Details of exact match pairs:
+20857844-20858284[441]
+20851953-20852393[441]
+
+Details of the LTR alignment(5'-end):
+                                        |20857845
+A-CTCTAGAACCA-CTC--CTGGTACCA---A---CT-TCTGTATTAGTCAGGGTTCTCTAGAGTCACAGAACTTATGGAT
+| ||  |||| || |||  | | ||  |   |   ||  *|||||||||||||||||||||||||||||||||||||||||
+AGCTAGAGAAACAGCTCAGCAGTTAAGAGTGATTGCTGCCTGTATTAGTCAGGGTTCTCTAGAGTCACAGAACTTATGGAT
+                                   *****|20851954
+
+Details of the LTR alignment(3'-end):
+                                20858284|****---*
+TCCAAATATTGTCAAGTTGACAACCAGGAATAGCCACTACACTGC---CCTTGGGGACAGTTCCTGTCACCCACATTAAGT
+||||||||||||||||||||||||||||||||||||||*|| | |   |||||    ||  |  || |||  | || || |
+TCCAAATATTGTCAAGTTGACAACCAGGAATAGCCACTACAATCCACCCCTTGT---CAACT--TGACAC--AAAT-AA-T
+                                20852393|
+
+Details of PPT(+):
+GAAAGTGCTGGTGGA
+|20857751
+
+[60] 17 Len:25593420
+Location : 20877805 - 20882177 Len: 4373 Strand:-
+Score    : 6 [LTR region similarity:0.996]
+Status   : 11111010000
+5'-LTR   : 20877805 - 20878302 Len: 498
+3'-LTR   : 20881680 - 20882177 Len: 498
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 20877800 - 20877804 , 20882178 - 20882182 [CCTGG]
+Sharpness: 0.429,0.443
+Strand - :
+PPT   : [13/15] 20878326 - 20878340
+
+Details of exact match pairs:
+20881674-20881705[32] (1) 20881707-20882172[466]
+20877799-20877830[32] (1) 20877832-20878297[466]
+
+Details of the LTR alignment(5'-end):
+                                          |20881680
+GTATCCCTTACCCTCATCTCCAGATCCCCAGTTTGACCCTGGTGCCCTCACCTGGCTGGGCTCCAATTCCTGGGAAGGCTC
+||| |||| || || | |||    | |||||||   *||||||||||||||||||||||||||||||| ||||||||||||
+GTA-CCCTGACTCTGACCTC----T-CCCAGTT---CCCTGGTGCCCTCACCTGGCTGGGCTCCAATTTCTGGGAAGGCTC
+                                     *****|20877805
+
+Details of the LTR alignment(3'-end):
+                              20882177|*****
+ATAGACATGTGTACTCCACCCCAGAGCCCACCACAATCACCTGGCTTTGGAGCT-----------TTCATGCCC-TCTCC-
+|||||||||||||||||||||||||||||||||| ||||||*||||  || |||           | ||| ||| | ||| 
+ATAGACATGTGTACTCCACCCCAGAGCCCACCACCATCACCTGGCT--GG-GCTCCCAGGCCAAATCCATTCCCGTTTCCG
+                              20878302|
+
+Details of PPT(-):
+TCCATTCCCGTTTCC
+|20878326
+
+[61] 17 Len:25593420
+Location : 21074287 - 21077608 Len: 3322 Strand:+
+Score    : 6 [LTR region similarity:0.939]
+Status   : 11111010000
+5'-LTR   : 21074287 - 21074686 Len: 400
+3'-LTR   : 21077202 - 21077608 Len: 407
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 21074281 - 21074286 , 21077609 - 21077614 [ATATCT]
+Sharpness: 0.543,0.457
+Strand + :
+PPT   : [15/15] 21077187 - 21077201
+
+Details of exact match pairs:
+21077213-21077261[49] (1) 21077263-21077305[43] (46) 21077352-21077395[44] (29) 21077425-21077465[41] (11) 21077477-21077502[26] (0) 21077503-21077598[96]
+21074298-21074346[49] (1) 21074348-21074390[43] (46) 21074437-21074480[44] (29) 21074510-21074550[41] (5) 21074556-21074581[26] (-1) 21074581-21074676[96]
+
+Details of the LTR alignment(5'-end):
+                                       |21077202
+ACATTCTCTCTGCCAAAAAAGA-AAAAAGGGGGAGA---TGTGAGGAGCAGGTGTGGCAGCAGTCCCAAGATGGCGCCCGG
+|| ||  |||  |||     ||   |    |  | |   |*|||||||| |||||||||||||||||||||||||||||||
+ACGTTGCCTCC-CCAGTGTCGATGGATCTCGTCATATCTTGTGAGGAGCGGGTGTGGCAGCAGTCCCAAGATGGCGCCCGG
+                                 ******|21074287
+
+Details of the LTR alignment(3'-end):
+                                     21077608|******
+GGACTGGTGGTCGTGTCGTTCTTGCTGGTCGAGAGCTGATGCGACAATATCTG-TCATTAT----AATTG--TTCCT----
+||||||||||||||||||||||||||||||||||*| ||   ||||||   || ||  |||    ||| |  | ||     
+GGACTGGTGGTCGTGTCGTTCTTGCTGGTCGAGAGCGGACAGGACAATTGGTGGTCCGTATGGGGAATCGACTCCCCCACC
+                                     21074686|
+
+Details of PPT(+):
+GAAAAAAGGGGGAGA
+|21077187
+
+[62] 17 Len:25593420
+Location : 21625678 - 21627564 Len: 1887 Strand:-
+Score    : 6 [LTR region similarity:0.992]
+Status   : 11111010000
+5'-LTR   : 21625678 - 21626073 Len: 396
+3'-LTR   : 21627169 - 21627564 Len: 396
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 21625673 - 21625677 , 21627565 - 21627569 [GGCCC]
+Sharpness: 0.471,0.471
+Strand - :
+PPT   : [13/15] 21626132 - 21626146
+
+Details of exact match pairs:
+21627169-21627207[39] (1) 21627209-21627358[150] (5) 21627364-21627564[201]
+21625678-21625716[39] (1) 21625718-21625867[150] (5) 21625873-21626073[201]
+
+Details of the LTR alignment(5'-end):
+                                       |21627169
+TGTCA----CAGGAATACCCCACTCTGCTGGTACCAATTTGTCTTAGTCAGGGTTTCTATTCCTGCACAAACATCATGACC
+|  ||      |||||  |  ||  ||  ||  ||    |*||||||||||||||||||||||||||||||||||||| ||
+T-CCATGTTTGGGAAT--CAAAC-ATG--GG--CC---CTGTCTTAGTCAGGGTTTCTATTCCTGCACAAACATCATGCCC
+                             **--**---*|21625678
+
+Details of the LTR alignment(3'-end):
+                               21627564|---*****
+ACTACAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACA---GGCCCTTTG-CAA---GA---ACAGTGCTCTTAACCAC
+|||||||||||||||||||||||||||||||||||||||*   | ||| ||| |||   ||   |||   | |   | |||
+ACTACAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACAATTGACCCCTTGTCAACTTGACACACAA-ACAC---ATCAC
+                               21626073|
+
+Details of PPT(-):
+TTCTTATTCATCCCC
+|21626132
+
+[63] 17 Len:25593420
+Location : 21777270 - 21779109 Len: 1840 Strand:+
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 21777270 - 21777664 Len: 395
+3'-LTR   : 21778715 - 21779109 Len: 395
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 21777265 - 21777269 , 21779110 - 21779114 [GAGGG]
+Sharpness: 0.529,0.443
+Strand + :
+PPT   : [13/15] 21778642 - 21778656
+
+Details of exact match pairs:
+21778715-21779111[397]
+21777270-21777666[397]
+
+Details of the LTR alignment(5'-end):
+                                       |21778715
+TAGTGATGTGTTTGTGTGTCAAGTTGACAAGGGGTCAATTGTACTGGCTAGTTTTGTGTCAACTTGACACAGCTGGGGTTA
+| | ||   | | | | |    | ||   ||||      *|||||||||||||||||||||||||||||||||||||||||
+T-G-GA---GCTGGCGCG----GGTG--GAGGG------TGTACTGGCTAGTTTTGTGTCAACTTGACACAGCTGGGGTTA
+                            *****------|21777270
+
+Details of the LTR alignment(3'-end):
+                                21779109|*****
+GTCGTGATGTTTGTGCAGGAATAGAGACCCTGACTAATACAGAGGGCGTTCGTTACCATGGAGCAGAG-GGCAGAAGACAG
+||||||||||||||||||||||||||||||||||||||*||||     || || ||||    |||||| ||  | |  |  
+GTCGTGATGTTTGTGCAGGAATAGAGACCCTGACTAATACAGAAA---TTGGT-ACCA----GCAGAGTGGGGGTATTC--
+                                21777664|
+
+Details of PPT(+):
+GGGGATGAATAAGAA
+|21778642
+
+[64] 17 Len:25593420
+Location : 22292622 - 22296994 Len: 4373 Strand:-
+Score    : 6 [LTR region similarity:0.837]
+Status   : 11111010000
+5'-LTR   : 22292622 - 22292758 Len: 137
+3'-LTR   : 22296850 - 22296994 Len: 145
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 22292618 - 22292621 , 22296995 - 22296998 [GTTT]
+Sharpness: 0.457,0.457
+Strand - :
+PPT   : [15/15] 22292812 - 22292826
+
+Details of exact match pairs:
+22296908-22296935[28] (11) 22296947-22296968[22]
+22292670-22292697[28] (11) 22292709-22292730[22]
+
+Details of the LTR alignment(5'-end):
+                                 |22296850
+T--GTGATC------AAAGTTTGTATGTGTGTGTGGGGGGGGTGTGAGACAGGGTTTCTCTGTGTAGCCCTGGCTGTTCTG
+|  || |||      ||||||  | || || | ||          |*|||||||||| ||||||||||||||||| | |||
+TTGGTTATCTTTTTAAAAGTTCTTTTG-GT-TTTG----------GAGACAGGGTTTTTCTGTGTAGCCCTGGCTATGCTG
+                            **-**|22292622
+
+Details of the LTR alignment(3'-end):
+                               22296994|****--
+CAAGTGCTGGGACTAAAGACAT--GTACCACCACTGCCCAGTTT--CTGATCAAA--GTTTTGAAGGGATCTAAGTTCAAG
+||||||||||||  |||| | |   ||||||||||||||*| |   ||| |      ||||||    | | |  |||    
+CAAGTGCTGGGATGAAAGGCGTTCATACCACCACTGCCCAGCTCACCTGGTTTTTTTGTTTTGTTTTGTTTT--GTTTTGT
+                               22292758|
+
+Details of PPT(-):
+TTTTTTTCCTTTTCT
+|22292812
+
+[65] 17 Len:25593420
+Location : 23302178 - 23314704 Len: 12527 Strand:-
+Score    : 6 [LTR region similarity:0.705]
+Status   : 11111010000
+5'-LTR   : 23302178 - 23302394 Len: 217
+3'-LTR   : 23314523 - 23314704 Len: 182
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 23302173 - 23302177 , 23314705 - 23314709 [CGCCC]
+Sharpness: 0.471,0.443
+Strand - :
+PPT   : [15/15] 23302413 - 23302427
+
+Details of exact match pairs:
+23314572-23314592[21] (9) 23314602-23314623[22] (30) 23314654-23314673[20]
+23302234-23302254[21] (7) 23302262-23302283[22] (60) 23302344-23302363[20]
+
+Details of the LTR alignment(5'-end):
+                       |23314523
+TGTGTGTCACCACATTGGTTCCCTGTTTTTTTTG---------TTTTTGTTTTTTTTTTTTTTGTTGTTG-TTTTGTTTTT
+| ||   | || |    |  |||||  | |   |         | ||| | |  | *|||| |||| ||| ||||||||||
+TATGCACCCCCCCCCCCG--CCCTG-CTCTCCAGCCCACCCACTCTTTATATCATCTTTTTCTGTT-TTGTTTTTGTTTTT
+                **--***|23302178
+
+Details of the LTR alignment(3'-end):
+                            23314704|*****
+GCCTCCTGAGTGCTGGGATTAAAGGCGTGCACCACCACGCCCGG----CCTGGT-TCCCTGTTTTCTT---------GAGA
+||||||  |||||||||||||||||||||  ||||||| ||||*    | |  | ||  | |||| ||         ||||
+GCCTCCCAAGTGCTGGGATTAAAGGCGTGTGCCACCACACCCGGAGCTCTTTATATCTTTTTTTTTTTTTTTTTTCCGAGA
+                            23302394|
+
+Details of PPT(-):
+TCTTTTTTTTTTTTT
+|23302413
+
+[66] 17 Len:25593420
+Location : 23374825 - 23393222 Len: 18398 Strand:+
+Score    : 6 [LTR region similarity:0.82]
+Status   : 11111010000
+5'-LTR   : 23374825 - 23375012 Len: 188
+3'-LTR   : 23393047 - 23393222 Len: 176
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 23374821 - 23374824 , 23393223 - 23393226 [GTGG]
+Sharpness: 0.486,0.557
+Strand + :
+PPT   : [12/15] 23393005 - 23393019
+
+Details of exact match pairs:
+23393052-23393073[22] (2) 23393076-23393104[29] (1) 23393106-23393130[25] (2) 23393133-23393159[27]
+23374830-23374851[22] (2) 23374854-23374882[29] (1) 23374884-23374908[25] (2) 23374911-23374937[27]
+
+Details of the LTR alignment(5'-end):
+                                         |23393047
+AAATAAATAAAAATTTTTAAAAAATTCTC-GCTGGTCATGGTGGCGCACGCCTTTAATCCCAGCACTCCCGAGGCAGAGGC
+  ||   |   ||||     || |||  | || || | *|||||| ||||||||||||||||||||||  |||||||||||
+GGATCTGTGTGAATTC----AAGATTTGCAGCCGGGCGTGGTGGCACACGCCTTTAATCCCAGCACTCGGGAGGCAGAGGC
+                                     ****|23374825
+
+Details of the LTR alignment(3'-end):
+                                                      23393222|****
+AAACAAAAAACAAAAAACA--------AAAAACAAAAAAAAAA--T-TCTCAGTAAAGT--CAGTGGTGATAGCCTCCTGG
+|||| ||||| |||||* |         |  ||| |   | |   | |||||  ||| |  ||      |||   || |  
+AAACCAAAAAAAAAAAAGATTTGCCTGGATTACAGAGTGAGACCCTATCTCAA-AAACTTTCAAC----ATA-TTTCAT--
+                                                      23375012|
+
+Details of PPT(+):
+ATAAATAAATAAAAA
+|23393005
+
+[67] 17 Len:25593420
+Location : 23966222 - 23968103 Len: 1882 Strand:-
+Score    : 6 [LTR region similarity:0.947]
+Status   : 11111010000
+5'-LTR   : 23966222 - 23966614 Len: 393
+3'-LTR   : 23967708 - 23968103 Len: 396
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 23966217 - 23966221 , 23968104 - 23968108 [CTTAC]
+Sharpness: 0.429,0.486
+Strand - :
+PPT   : [13/15] 23966673 - 23966687
+
+Details of exact match pairs:
+23967708-23967746[39] (13) 23967760-23967783[24] (23) 23967807-23967835[29] (10) 23967846-23967880[35] (11) 23967892-23967933[42] (12) 23967946-23967989[44] (25) 23968015-23968053[39] (3) 23968057-23968103[47]
+23966222-23966260[39] (12) 23966273-23966296[24] (23) 23966320-23966348[29] (10) 23966359-23966393[35] (11) 23966405-23966446[42] (11) 23966458-23966501[44] (24) 23966526-23966564[39] (3) 23966568-23966614[47]
+
+Details of the LTR alignment(5'-end):
+                                       |23967708
+TCACAGGAATACCC----CACTCTGCTGGTACCAATT--TGTCTTAGTCAGGGTTTCTATTCCTGCACAAACATCATGTCC
+ ||||||||  |||    || |||     ||||  ||  *|||||||||||||||||||||||||||||||||||||| ||
+CCACAGGAA-GCCCTTGTCAATCT-----TACC--TTACTGTCTTAGTCAGGGTTTCTATTCCTGCACAAACATCATGACC
+                                *--****|23966222
+
+Details of the LTR alignment(3'-end):
+                                23968103|***-**
+AACTCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACACTT-ACAC------AA------AGAGAAA-ATATCAC-GG
+||||||||||||||||||||||||||||||||||||||*|| || || |      ||      | | ||| | |||||  |
+AACTCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACAATTGACCCCTTGTCAACTTGACACACAAACACATCACTAG
+                                23966614|
+
+Details of PPT(-):
+TTCTTATTCATCCCC
+|23966673
+
+[68] 17 Len:25593420
+Location : 24447519 - 24453987 Len: 6469 Strand:+
+Score    : 6 [LTR region similarity:0.998]
+Status   : 11111010000
+5'-LTR   : 24447519 - 24448011 Len: 493
+3'-LTR   : 24453495 - 24453987 Len: 493
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 24447514 - 24447518 , 24453988 - 24453992 [ACGCC]
+Sharpness: 0.514,0.529
+Strand + :
+PPT   : [11/15] 24453480 - 24453494
+
+Details of exact match pairs:
+24453495-24453875[381] (1) 24453877-24453987[111]
+24447519-24447899[381] (1) 24447901-24448011[111]
+
+Details of the LTR alignment(5'-end):
+                                      |24453495
+A--T-TTGTGTCAAGTTGA--CAAGG-GGTGGA----TTGTAGTGGCTATTCCTGGTTGTCAACTTGACAATATTTGGAAT
+|  |  | |||||  | ||  || ||  ||  |     ||*||||||||||||||||||||||||||||||||||||||||
+AACTCCTATGTCAGCTGGAGGCATGGCTGTAAAACGCCTGTAGTGGCTATTCCTGGTTGTCAACTTGACAATATTTGGAAT
+                                 *****|24447519
+
+Details of the LTR alignment(3'-end):
+                               24453987|-*****
+TCCATAAGTTCTGTGACTCTAGAGAACCCTGACTAATACA-ACGCCAAT-CCTTTAGT--CCCCAGA----CAGAACTGGC
+|||||||||||||||||||||||||||||||||||||||* | |    | ||   |||    | |||    ||||| |  |
+TCCATAAGTTCTGTGACTCTAGAGAACCCTGACTAATACAGAAGTTGGTACCAGGAGTGGTTCTAGAGTAACAGAAGTA-C
+                               24448011|
+
+Details of PPT(+):
+TGACAAGGGGTGGAT
+|24453480
+
+[69] 17 Len:25593420
+Location : 24454199 - 24456286 Len: 2088 Strand:-
+Score    : 6 [LTR region similarity:0.991]
+Status   : 11111010000
+5'-LTR   : 24454199 - 24454519 Len: 321
+3'-LTR   : 24455966 - 24456286 Len: 321
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 24454193 - 24454198 , 24456287 - 24456292 [CGCGGC]
+Sharpness: 0.529,0.557
+Strand - :
+PPT   : [14/15] 24454520 - 24454534
+
+Details of exact match pairs:
+24455966-24456163[198] (1) 24456165-24456241[77] (1) 24456243-24456272[30]
+24454199-24454396[198] (1) 24454398-24454474[77] (1) 24454476-24454505[30]
+
+Details of the LTR alignment(5'-end):
+                                       |24455966
+--TTTGCCGT-TTCT-CAGCCC-CACGTTGGGCGCCAATTGTTGTGGCCGGCCAGCAGACCACAACCTGGGTTCTAGCCTG
+  |||  |||  | |  ||  |  ||||   ||| |   *|||||||||||||||||||||||||||||||||||||||||
+AATTTA-CGTAGTGTGAAGTTCGTACGTCCCGCGGC---TGTTGTGGCCGGCCAGCAGACCACAACCTGGGTTCTAGCCTG
+                              ******---|24454199
+
+Details of the LTR alignment(3'-end):
+                                  24456286|-******---------
+ACCCCGAGCAAGCAGGTTTCAGGCTGGGGGAGGGGAGACTACA-CGCGGC---------GGCAGG---TCACATGGTGAAA
+||||||||||||||||||||||||||||| ||||||*|||||| | |  |           ||     | | |    ||||
+ACCCCGAGCAAGCAGGTTTCAGGCTGGGGAAGGGGAGACTACATCTCCTCCCTTTTATTAACAAAATTTTAAAAAAAGAAA
+                                  24454519|
+
+Details of PPT(-):
+TCTCCTCCCTTTTAT
+|24454520
+
+[70] 17 Len:25593420
+Location : 24682412 - 24688148 Len: 5737 Strand:+
+Score    : 6 [LTR region similarity:0.801]
+Status   : 11111010000
+5'-LTR   : 24682412 - 24682611 Len: 200
+3'-LTR   : 24687967 - 24688148 Len: 182
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 24682407 - 24682411 , 24688149 - 24688153 [TGGTT]
+Sharpness: 0.457,0.443
+Strand + :
+PPT   : [13/15] 24687952 - 24687966
+
+Details of exact match pairs:
+24687990-24688022[33] (23) 24688046-24688067[22] (9) 24688077-24688105[29]
+24682438-24682470[33] (23) 24682494-24682515[22] (9) 24682525-24682553[29]
+
+Details of the LTR alignment(5'-end):
+                                  |24687967
+TAGTCTCTCCTTACTGG---GG---GGGGGGGGGTGGACCG---TTTCAAGACAGGGTTTCTCTGTGCAGCCCTGGCTGTC
+| || | |  ||  |||   ||   ||   ||  |||   |   |*||||| ||||||| |||||||||||||||||||||
+TGGT-T-TGGTT--TGGTTTGGTTTGGTTTGGTTTGGTTTGGTTTTTCAAGGCAGGGTTGCTCTGTGCAGCCCTGGCTGTC
+                             *****|24682412
+
+Details of the LTR alignment(3'-end):
+                                                   24688148|*****
+C-AC---CACCTGGCTCTTCCTTACCCCTC--TTTGTTTT-----A---AC-TG-TGGCATGGTTTGTTT-TATTTTAATT
+| ||   |||||| ||||||*  |  |||   ||   ||      |   || || || ||     ||| | ||  || | |
+CCACTGCCACCTG-CTCTTCCAGAGACCTAGGTTCAATTCCCAGCACCCACATGATGCCACACACTGTCTGTAACTTGAGT
+                                                   24682611|
+
+Details of PPT(+):
+CTGGGGGGGGGGGGG
+|24687952
+
+[71] 17 Len:25593420
+Location : 24861523 - 24863399 Len: 1877 Strand:-
+Score    : 6 [LTR region similarity:1]
+Status   : 11111010000
+5'-LTR   : 24861523 - 24861915 Len: 393
+3'-LTR   : 24863007 - 24863399 Len: 393
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 24861518 - 24861522 , 24863400 - 24863404 [CATAG]
+Sharpness: 0.529,0.486
+Strand - :
+PPT   : [12/15] 24861974 - 24861988
+
+Details of exact match pairs:
+24863007-24863399[393]
+24861523-24861915[393]
+
+Details of the LTR alignment(5'-end):
+                                       |24863007
+CACAGG---AATACCCCACTCTGCTGGTA----CCAATTTGTCTTAGTCAGGGTTTCTATTCCTGCACAAACATCATGACC
+ | | |   |||  |  |||   ||  ||    |||   *|||||||||||||||||||||||||||||||||||||||||
+TA-ATGTCTAATG-CTAACTGCCCT-ATAAAAGCCATAGTGTCTTAGTCAGGGTTTCTATTCCTGCACAAACATCATGACC
+                                  *****|24861523
+
+Details of the LTR alignment(3'-end):
+                               24863399|*****
+ACTCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACACATAGCTACCGCGGCTTGTTGACCCTCAGAGGTCAGGTCAA
+|||||||||||||||||||||||||||||||||||||||* || |  ||| |  |||||  ||  | | |   ||   |||
+ACTCCAGCTGTGTCAAGTTGACACAAAACTAGCCAGTACA-ATTG--ACC-C--CTTGTCAACT-TGACA---CA---CAA
+                               24861915|
+
+Details of PPT(-):
+ATCTTATTCATCCCC
+|24861974
+
+[72] 17 Len:25593420
+Location : 25521030 - 25534146 Len: 13117 Strand:-
+Score    : 6 [LTR region similarity:0.921]
+Status   : 11111010000
+5'-LTR   : 25521030 - 25521155 Len: 126
+3'-LTR   : 25534023 - 25534146 Len: 124
+5'-TG    : TG , TG
+3'-CA    : CA , CA
+TSR      : 25521026 - 25521029 , 25534147 - 25534150 [TTTT]
+Sharpness: 0.429,0.471
+Strand - :
+PPT   : [14/15] 25521217 - 25521231
+
+Details of exact match pairs:
+25534050-25534094[45] (33) 25534128-25534147[20]
+25521059-25521103[45] (33) 25521137-25521156[20]
+
+Details of the LTR alignment(5'-end):
+                                          |25534023
+CCACCACTGCCCA--CTC--ATTTTG------TTTGTTTTTTTG---TTTTTCGAGACAGGGTTTCTCTGTGTAGCCCTGG
+|| ||||||| ||  |||  | ||||      ||| *|||||||   ||||| |||||||||||||||||| |||||||||
+CCCCCACTGCACATGCTCCAACTTTGCCTCTTTTTTTTTTTTTGGAATTTTT-GAGACAGGGTTTCTCTGTATAGCCCTGG
+                                      ****|25521030
+
+Details of the LTR alignment(3'-end):
+                               25534146|****
+TTCACCTGCCTCTGCCTCCCAAGTGCTGGGATTAAAGGCATTTTAAAAAAACTTTTTA----CAA-TAT-CAT-TTTAGAA
+| | |||||||||| ||||| |||||||||||||||||||*      |  |||    |    ||| | | | | |||| ||
+TCCGCCTGCCTCTGACTCCCGAGTGCTGGGATTAAAGGCATGC-GCCACCACTGCCCAGCTCCAACTTTGCCTCTTTA-AA
+                               25521155|
+
+Details of PPT(-):
+CTCCTCATTTCTCTC
+|25521217
+
+
+Total consume 3210.206 second
